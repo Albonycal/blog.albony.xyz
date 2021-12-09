@@ -4,3 +4,6 @@
 [submodule "themes/photophobia"]
 	path = themes/photophobia
 	url = https://github.com/setsevireon/photophobia.git
+[submodule "themes/zzo"]
+	path = themes/zzo
+	url = https://github.com/zzossig/hugo-theme-zzo.git
