@@ -1,0 +1,22 @@
+baseURL: "https://blog.albony.xyz/"
+title: Albony'S Blog
+paginate: 5
+theme: PaperMod
+
+params:
+    # defaultTheme: light
+    # defaultTheme: dark
+    defaultTheme: light # to switch between dark or light according to browser theme
+
+params:
+    homeInfoParams:
+        Title: Hi there ;)
+        Content: https://albony.xyz/
+
+    socialIcons: # optional
+        - name: "Github"
+          url: "https://github.com/albonycal"
+        - name: "Albony.xyz"
+          url: "https://albony.xyz"
+        - name: "RSS"
+          url: "https://blog.albony.xyz/index.xml"
