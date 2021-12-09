@@ -22,6 +22,6 @@ You can use one of the public instances of whoogle (like the one I run, https://
 But if you don't trust random people on the internet 😄, you can host it yourself (if you are savvy enough.) The instructions are on the github page for whoogle.
 #### My Instance of [Whoogle](https://search.albony.xyz)
 <img src="/img/whoogle-1/whoogle-albony.png"> 
- ![My Instance Of Whoogle](/img/whoogle-1/whoogle-albony.png)
+ ![My Instance Of Whoogle](https://blog.albony.xyz/img/whoogle-1/whoogle.png)
 
 
