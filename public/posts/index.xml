@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Nov 2021 15:12:24 +0530</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://example.org/posts/my-first-post/</link>
+      <pubDate>Fri, 26 Nov 2021 15:12:24 +0530</pubDate>
+      
+      <guid>http://example.org/posts/my-first-post/</guid>
+      <description>Albony&amp;rsquo;s First Blog Post Search Privately using Whoogle. What is whoogle ? Whoogle is a privacy friendly (meta) search engine. It uses google for it&amp;rsquo;s data but without any ads, javascript, AMP links, cookies, or IP address tracking. It&amp;rsquo;s Free and opensource software. ![[whoogle.png]]
+Why use whoogle? If you didn&amp;rsquo;t knew, a great chunk of google&amp;rsquo;s revenue comes from ads and tracking. They use their services to gather user&amp;rsquo;s private data and use it for their own benefit, privacy is extremely important.</description>
+    </item>
+    
+  </channel>
+</rss>
