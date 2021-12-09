@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/posts/my-first-post/</loc>
+    <loc>https://blog.albony.xyz/</loc>
     <lastmod>2021-11-26T15:12:24+05:30</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://blog.albony.xyz/posts/</loc>
     <lastmod>2021-11-26T15:12:24+05:30</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://blog.albony.xyz/posts/my-first-post/</loc>
     <lastmod>2021-11-26T15:12:24+05:30</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://blog.albony.xyz/categories/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://blog.albony.xyz/tags/</loc>
   </url>
 </urlset>
