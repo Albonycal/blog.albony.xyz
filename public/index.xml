@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 26 Nov 2021 15:12:24 +0530</lastBuildDate><atom:link href="https://blog.albony.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Whoogle: A privacy friendly search engine</title>
-      <link>https://blog.albony.xyz/posts/my-first-post/</link>
+      <link>https://blog.albony.xyz/posts/whoogle-1/</link>
       <pubDate>Fri, 26 Nov 2021 15:12:24 +0530</pubDate>
       
-      <guid>https://blog.albony.xyz/posts/my-first-post/</guid>
+      <guid>https://blog.albony.xyz/posts/whoogle-1/</guid>
       <description>Albony&amp;rsquo;s First Blog Post Search Privately using Whoogle. What is whoogle ? Whoogle is a privacy friendly (meta) search engine. It uses google for it&amp;rsquo;s data but without any ads, javascript, AMP links, cookies, or IP address tracking. It&amp;rsquo;s Free and opensource software.
 Why use whoogle? If you didn&amp;rsquo;t knew, a great chunk of google&amp;rsquo;s revenue comes from ads and tracking. They use their services to gather user&amp;rsquo;s private data and use it for their own benefit, privacy is extremely important.</description>
     </item>
