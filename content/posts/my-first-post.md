@@ -1,5 +1,5 @@
 ---
-title: "My First Post"
+title: "Whoogle: A privacy friendly search engine"
 date: 2021-11-26T15:12:24+05:30
 draft: false
 ---
@@ -10,7 +10,7 @@ draft: false
 Whoogle is a privacy friendly (meta) search engine.
 It uses google for it's data but **without any ads, javascript, AMP links, cookies, or IP address tracking.**
 It's Free and opensource software.
-![[whoogle.png]]
+![[https://cdn.albony.xyz/blog/whoogle-1/whoogle.png]]
 
 ### Why use whoogle?
 If you didn't knew, a great chunk of google's revenue comes from ads and tracking. They use their services to gather user's private data and use it for their own benefit, privacy is extremely important. 
@@ -20,5 +20,5 @@ While there are other privacy based search engines like duckduckgo.com, it lacks
 You can use one of the public instances of whoogle (like the one I run, https://search.albony.xyz/)
 But if you don't trust random people on the internet 😄, you can host it yourself (if you are savvy enough.) The instructions are on the github page for whoogle.
 #### My Instance of [Whoogle](https://search.albony.xyz)
-![[whoogle-albony.png]]
+![[https://cdn.albony.xyz/blog/whoogle-1/whoogle-albony.png]]
 
