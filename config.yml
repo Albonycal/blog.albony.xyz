@@ -21,7 +21,7 @@ params:
         - name: "RSS"
           url: "https://blog.albony.xyz/index.xml"
 
-  assets:
+assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
         favicon: "/favicon.png"
