@@ -1,13 +1,13 @@
 ---
 title: "Hosting an arch linux mirror"
 date: 2022-03-10T15:12:24+05:30
-draft: false
+draft: true
 tags: ["archlinux"]
 author: "Albony"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 comments: false
 description: "It has been added to the offical archlinux mirrorlist"
