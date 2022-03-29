@@ -49,7 +49,7 @@ and add this to the file.
 }
 ```
 Mine looks like this, 
-![[/daemon.json.png]]
+![daemon.json](/daemon.json.png)
 
 #### Now restart the docker daemon: 
 ```sh
