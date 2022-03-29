@@ -2,7 +2,7 @@
 title: "Setting DNS for containers in a docker environment"
 date: 2021-12-10T15:12:24+05:30
 draft: false
-tags: ["docker" "dns" ]
+tags: ["docker", "dns" ]
 author: "Albony"
 # author: ["Me", "You"] # multiple authors
 showToc: true
