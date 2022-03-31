@@ -10,7 +10,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "specifying DNS for docker containers"
+#description: "specifying DNS for docker containers"
 canonicalURL: "https://blog.albony.xyz/posts/DNS-DOCKER"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -36,6 +36,7 @@ editPost:
 #### I have been using a dirty hack to set my own DNS servers. I knew this wasn't the correct way to do it. i.e making a `resolv.conf` in the docker directory and mounting it at `/etc/resolv.conf` in the container :D
 #### It works but isn't the correct and proper way to do it. 
 ##  Configuring `/etc/docker/daemon.json`
+"The Correct Way"
 #### You can set the DNS for the docker environment in the `/etc/docker/daemon.json` file.  
 ``` sh
  sudoedit /etc/docker/daemon.json
