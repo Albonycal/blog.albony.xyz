@@ -42,7 +42,7 @@ editPost:
  sudoedit /etc/docker/daemon.json
 
 ```
-If asked chose a text editor of choice. 
+If asked chose a text editor of choice, create the file if it doesn't exist 
 and add this to the file. 
 ```json
 {
