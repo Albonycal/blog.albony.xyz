@@ -43,6 +43,10 @@ but the default UI is too bright and "dark mode" looks cool :D
 #### Discord-PVE
 Discord-PVE is a "discord theme" for the proxmox virtual environment 
 it uses custom stylesheet
+To Install it: run this oneliner 
+```sh
+bash <(curl -s https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh ) install
+``` 
 This looks soo much better
 URL: https://github.com/Weilbyte/PVEDiscordDark
 ![Proxmox](/proxmox-discord.png)
