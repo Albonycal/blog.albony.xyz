@@ -1,5 +1,5 @@
 ---
-title: "APT ipv6 connection issue: over ipv6 network"
+title: "APT mirror connection issue: IPv6"
 date: 2022-05-16T15:12:24+05:30
 draft: false
 tags: ["apt", "ubuntu" , "ipv6" ]
