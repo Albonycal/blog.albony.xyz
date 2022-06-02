@@ -1,8 +1,8 @@
 ---
-title: "Hosting an arch linux mirror"
-date: 2022-03-10T15:12:24+05:30
+title: " "
+date: date -u +"%Y-%m-%dT%H:%M:%SZ"
 draft: true
-tags: ["archlinux"]
+tags: [" " , " "]
 author: "Albony"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -10,19 +10,18 @@ TocOpen: false
 draft: true
 hidemeta: false
 comments: false
-description: "It has been added to the offical archlinux mirrorlist"
-canonicalURL: "https://blog.albony.xyz/posts/arch-mirror"
-disableHLJS: true # to disable highlightjs
+description: " "
+canonicalURL: "https://blog.albony.xyz/posts/<>"
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 cover:
     image: "/"
-    caption: "Arch Mirror"
+    caption: " "
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost:
@@ -32,4 +31,3 @@ editPost:
 
 ---
 ### TEST
-https://repo.albony.xyz/
