@@ -14,6 +14,8 @@ params:
         Content: https://albony.xyz/
 
     socialIcons: # optional
+        - name: buymeacoffee
+          url: "https://buymeacoffee.com/albony"
         - name: "Github"
           url: "https://github.com/albonycal"
         - name: "Albony.xyz"
