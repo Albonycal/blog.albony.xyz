@@ -5,7 +5,7 @@ draft: false
 tags: ["linux" , "mirror" , "server" , "albony.xyz"]
 author: "Albony"
 # author: ["Me", "You"] # multiple authors
-showToc: true
+showToc: false
 TocOpen: false
 hidemeta: false
 comments: false
@@ -13,7 +13,7 @@ description: "Mirror goes brrr "
 canonicalURL: "https://blog.albony.xyz/posts/albony-mirror"
 disableShare: false
 disableHLJS: false
-hideSummary: false
+hideSummary: true
 searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
