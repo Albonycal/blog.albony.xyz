@@ -1,6 +1,6 @@
 ---
-title: " "
-date: date -u +"%Y-%m-%dT%H:%M:%SZ"
+title: "Supporting the albony.xyz mirror "
+date: "2022-06-24T16:35:04Z"
 draft: false
 tags: ["linux" , "mirror" , "server" , "albony.xyz"]
 author: "Albony"
