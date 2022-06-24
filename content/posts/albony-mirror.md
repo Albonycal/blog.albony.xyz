@@ -9,7 +9,7 @@ showToc: true
 TocOpen: false
 hidemeta: false
 comments: false
-description: " "
+description: "Mirror goes brrr "
 canonicalURL: "https://blog.albony.xyz/posts/albony-mirror"
 disableShare: false
 disableHLJS: false
