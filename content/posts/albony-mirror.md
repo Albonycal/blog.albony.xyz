@@ -1,7 +1,7 @@
 ---
 title: "Supporting the albony.xyz mirror "
 date: "2022-06-24T16:35:04Z"
-draft: false
+draft: true
 tags: ["linux" , "mirror" , "server" , "albony.xyz"]
 author: "Albony"
 # author: ["Me", "You"] # multiple authors
