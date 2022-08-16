@@ -29,7 +29,7 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 
 ---
-## Termux
+## [Termux](https://termux.dev/en/}
 
 #### mirror.albony.xyz/termux
 Its added to the termux mirrorlist so you should get it automatically soon, if you want to add it manually: 
@@ -49,7 +49,7 @@ deb https://mirror.albony.xyz/termux/termux-x11 x11 main
 
 ```
 
-## Armbian
+## [Armbian](https://www.armbian.com/)
 
 #### mirror.albony.xyz/armbian
 
