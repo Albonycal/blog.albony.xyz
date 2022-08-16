@@ -1,5 +1,5 @@
 ---
-title: "New Termux and Armbian mirror live now! "
+title: "New Termux and Armbian mirrors live now! "
 date: 2022-08-16T07:19:31Z
 tags: ["termux" , "armbian" , "mirror"]
 author: "Albony"
@@ -46,9 +46,8 @@ deb https://mirror.albony.xyz/termux/termux-root root stable
 
 # X11
 deb https://mirror.albony.xyz/termux/termux-x11 x11 main
-```
 
-The mirror is hosted at Nagpur, India and syncs every 53 minutes from the upstream.
+```
 
 ## Armbian
 
