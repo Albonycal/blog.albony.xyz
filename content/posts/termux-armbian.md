@@ -22,7 +22,7 @@ cover:
     image: "/mirror.png"
     caption: " "
     relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    hidden: false # only hide on current single page
 editPost:
     URL: "https://github.com/blog.albony.xyz/content"
     Text: "Suggest Changes" # edit text
@@ -31,7 +31,8 @@ editPost:
 ---
 ## [Termux](https://termux.dev/en/)
 
-#### mirror.albony.xyz/termux
+#### [mirror.albony.xyz/termux](https://mirrror.albony.xyz/termux)
+
 Its added to the termux mirrorlist so you should get it automatically soon, if you want to add it manually: 
 
 `termux-change-repo` (part of termux-tools package) can be used to modify sources. 
@@ -51,7 +52,7 @@ deb https://mirror.albony.xyz/termux/termux-x11 x11 main
 
 ## [Armbian](https://www.armbian.com/)
 
-#### mirror.albony.xyz/armbian
+#### [mirror.albony.xyz/armbian](https://mirror.albony.xyz/armbian)
 
 This is also added to the armbian mirrorlist but you can also add it manually by editing the sources. 
 
