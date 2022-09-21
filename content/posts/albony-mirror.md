@@ -1,5 +1,5 @@
 ---
-title: "Supporting the albony.xyz mirror "
+title: "Albony.xyz Mirror "
 date: "2022-06-24T16:35:04Z"
 draft: false
 tags: ["linux" , "mirror" , "server" , "albony.xyz"]
@@ -24,10 +24,10 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 
 ---
-## mirror.albony.xyz
-#### Currently mirroring 5 repositories.
-(archlinux, raspberry pi os, manjaro, blackarch, chaotic-aux)
-#### I get more than **11TB in traffic** and more than **12 Million requests** per month,
+## [mirror.albony.xyz](https://mirror.albony.xyz)
+#### Currently mirroring 7 repositories.
+(archlinux, raspberry pi os, manjaro, armbian, termux blackarch, chaotic-aur)
+#### I get more than **14TB in traffic** and more than **14 Million requests** per month,
 ![Traffic goes brrrr...](/traffic.png)
 ![](/traffic1.png)
 #### and around 2TB every week, sometimes even more.
