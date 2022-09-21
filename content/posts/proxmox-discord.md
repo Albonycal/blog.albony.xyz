@@ -1,5 +1,5 @@
 ---
-title: "How to make proxmox webUI beautiful"
+title: "Dark Mode for Proxmox"
 date: 2021-12-10T15:12:24+05:30
 draft: false
 tags: ["proxmox"]
