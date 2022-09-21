@@ -39,16 +39,16 @@ editPost:
  It is one of the best virtual machince platform that utilizes KVM
 *And it's FOSS*
 ![Proxmox](/proxmox.png)
-but the default UI is too bright and "dark mode" looks cool :D
+but the default UI is too bright and I prefer darker themes
 #### Discord-PVE
-Discord-PVE is a "discord theme" for the proxmox virtual environment 
-it uses custom stylesheet
+Discord-PVE is a discord theme for the proxmox virtual environment 
+it uses custom stylesheet.
+
 To Install it: run this oneliner 
 ```sh
 bash <(curl -s https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/PVEDiscordDark.sh ) install
 ``` 
 This looks soo much better
-URL: https://github.com/Weilbyte/PVEDiscordDark
+ https://github.com/Weilbyte/PVEDiscordDark
 ![Proxmox](/proxmox-discord.png)
 
-(This was in my personal notes, I thought maybe I could put it in a blog post)                `¯¯ \_(ツ)_/¯`
