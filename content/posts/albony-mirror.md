@@ -22,7 +22,8 @@ editPost:
     URL: "https://github.com/blog.albony.xyz/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
-
+cover:
+     image: "/mirror.png"
 ---
 ## [mirror.albony.xyz](https://mirror.albony.xyz)
 #### Currently mirroring 7 repositories.
