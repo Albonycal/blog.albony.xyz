@@ -32,7 +32,7 @@ editPost:
 
 ---
 ## The Problem 
-#### Today is patch monday, I update my docker containers and packages today :D but when I did `sudo apt update && sudo apt upgrade -y` I noticed that it was trying to connect to the ubuntu mirror over IPv6 (and failing)  
+####  when I did `sudo apt update && sudo apt upgrade -y` I noticed that it was trying to connect to the ubuntu mirror over IPv6 (and failing)  
 #### My ISP hasn't enabled IPv6 for me, so I can't connect over IPv6. and I don't have any IPv6 DNS servers. But still `apt` was trying to connect over IPv6... weird... 
 ![APT trying to connect over IPv6](/apt_ipv6.png)
 
