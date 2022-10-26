@@ -1,7 +1,6 @@
 ---
 title: " "
 date: date -u +"%Y-%m-%dT%H:%M:%SZ"
-draft: true
 tags: [" " , " "]
 author: "Albony"
 # author: ["Me", "You"] # multiple authors
