@@ -32,5 +32,6 @@ cover:
 ![Traffic goes brrrr...](/traffic.png)
 ![](/traffic1.png)
 #### and around 2TB every week, sometimes even more.
-#### You can support me by donating at: https://buymeacoffee.com/albony
+#### You can support me by donating at: https://mirror.albony.xyz/donate.html
+#### Via BTC or buymecoffee
 ![Buy Me Coffee...](/donate.png)
