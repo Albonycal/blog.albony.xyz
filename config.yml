@@ -1,5 +1,5 @@
 baseURL: "https://blog.albony.xyz/"
-title: Albony'S Blog
+title: Shrirang Kahale
 paginate: 5
 theme: PaperMod
 
@@ -18,10 +18,10 @@ params:
           url: "https://buymeacoffee.com/albony"
         - name: "Github"
           url: "https://github.com/albonycal"
-        - name: "Albony.xyz"
-          url: "https://albony.xyz"
+        - name: "ShrirangKahale.com"
+          url: "https://shrirangkahale.com"
         - name: "RSS"
-          url: "https://blog.albony.xyz/index.xml"
+          url: "https://blog.shrirangkahale.com/index.xml"
 
 assets:
         # disableHLJS: true # to disable highlight.js
