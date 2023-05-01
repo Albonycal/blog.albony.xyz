@@ -98,3 +98,7 @@ HOST: phoenix                                              Loss%   Snt   Last   
 ### India (Airtel) ➜  Germany (HE.net) ➜  UK (Level3) ➜  India (Vi) with RTT of more than 200ms
 
 #### I tried connecting from my Vi LTE through a VPN to my server at home, it's literally unusable: very high latency along with packetloss. They need to do something about this.
+#### Also, Vi seems to be using an IPv6 ULA (`fd00:0:17:17::72`) in their network instead of using GUA for everything. This is against best practices.
+
+### Anyway, Thank You for reading. You can contact me here in case of any questions: https://shrirangkahale.com/contact
+
