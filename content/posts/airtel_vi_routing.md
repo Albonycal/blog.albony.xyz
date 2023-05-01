@@ -34,10 +34,9 @@ editPost:
 
 ![](/vi-bgptools.png)
 
-### VoWiFi (Voice Over WiFi) is very useful for places which have poor cellular coverage, But due to the horrible routing between the two ISPs the VoWiFi experience is bad. When I use VoWiFi (Vi SIM) on Airtel Broadband connection, there are constant call drops and stuttering. 
-### VoWiFi is kinda similar to VoLTE (Voice over LTE) 
+### ➜  VoWiFi (Voice Over WiFi) is very useful for places which have poor cellular coverage, But due to the horrible routing between the two ISPs the VoWiFi experience is bad. When I use VoWiFi (Vi SIM) on Airtel Broadband connection, there are constant call drops and stuttering. 
 
-#### 3GPP (Third Generation Partnership Project) has defined a number of network domains that are used to describe different parts of the cellular network architecture.
+### ➜ 3GPP (Third Generation Partnership Project) has defined a number of network domains that are used to describe different parts of the cellular network architecture.
 
 #### The domains used for VoWiFi look like this: `epdg.epc.mnc022.mcc404.pub.3gppnetwork.org`
 
@@ -96,6 +95,6 @@ HOST: phoenix                                              Loss%   Snt   Last   
 
 ### It goes from: 
 
-### India (Airtel) --> Germany (HE.net) --> UK (Level3) --> India (Vi) with RTT of more than 200ms
+### India (Airtel) ➜  Germany (HE.net) ➜  UK (Level3) ➜  India (Vi) with RTT of more than 200ms
 
 #### I tried connecting from my Vi LTE through a VPN to my server at home, it's literally unusable: very high latency along with packetloss. They need to do something about this.
