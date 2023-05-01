@@ -18,7 +18,7 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 cover:
-    image: "/"
+    image: "/vi-bgptools.png"
     caption: " "
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
@@ -32,7 +32,7 @@ editPost:
 
 ## Even though Bharti Airtel (AS9498) is an upstream of Vodafone Idea (Vi) the routing between the two ISPs is consistently bad. While this heavily affects P2P traffic, it also has other impacts. 
 
-![[Pasted image 20230501151417.png]]
+![](/vi-bgptools.png)
 
 ### VoWiFi (Voice Over WiFi) is very useful for places which have poor cellular coverage, But due to the horrible routing between the two ISPs the VoWiFi experience is bad. When I use VoWiFi (Vi SIM) on Airtel Broadband connection, there are constant call drops and stuttering. 
 ### VoWiFi is kinda similar to VoLTE (Voice over LTE) 
@@ -64,8 +64,8 @@ HOST: phoenix                Loss%   Snt   Last   Avg  Best  Wrst StDev
 ```
 
 ### Look at the 6th hop, `2402:6800:760:7::72` belongs to AS55429 Limelight Networks India, which is one of the downstreams of Bharti Airtel (AS9498) why is it routing through that? 
-![[Pasted image 20230501151654.png]]
 
+![](/limenetworks.png)
 
 ### If are a user using Vi internet, the routing is even worse. 
 
