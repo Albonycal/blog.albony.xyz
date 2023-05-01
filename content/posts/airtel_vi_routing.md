@@ -34,8 +34,8 @@ editPost:
 
 ![[Pasted image 20230501151417.png]]
 
-#### VoWiFi (Voice Over WiFi) is very useful for places which have poor cellular coverage, But due to the horrible routing between the two ISPs the VoWiFi experience is bad. When I use VoWiFi (Vi SIM) on Airtel Broadband connection, there are constant call drops and stuttering. 
-#### VoWiFi is kinda similar to VoLTE (Voice over LTE) 
+### VoWiFi (Voice Over WiFi) is very useful for places which have poor cellular coverage, But due to the horrible routing between the two ISPs the VoWiFi experience is bad. When I use VoWiFi (Vi SIM) on Airtel Broadband connection, there are constant call drops and stuttering. 
+### VoWiFi is kinda similar to VoLTE (Voice over LTE) 
 
 #### 3GPP (Third Generation Partnership Project) has defined a number of network domains that are used to describe different parts of the cellular network architecture.
 
@@ -43,9 +43,9 @@ editPost:
 
 
 
-##### MCC stands for Mobile Country Code, and it is a three-digit code used to identify the country where a mobile network operator is based. The MCC is assigned by the International Telecommunication Union (ITU) and is used in combination with the Mobile Network Code (MNC) to uniquely identify a mobile network operator.
+#### MCC stands for Mobile Country Code, and it is a three-digit code used to identify the country where a mobile network operator is based. The MCC is assigned by the International Telecommunication Union (ITU) and is used in combination with the Mobile Network Code (MNC) to uniquely identify a mobile network operator.
 
-#### Now let's take a look at this traceroute: 
+### Now let's take a look at this traceroute: 
 ```c
 fawks on phoenix ~ took 1s 
 ➜ mtr -wr epdg.epc.mnc022.mcc404.pub.3gppnetwork.org 
@@ -63,11 +63,11 @@ HOST: phoenix                Loss%   Snt   Last   Avg  Best  Wrst StDev
   9.|-- 2402:3a80:1060::3       0.0%    10  103.8 105.0 103.7 108.1   1.7
 ```
 
-#### Look at the 6th hop, `2402:6800:760:7::72` belongs to AS55429 Limelight Networks India, which is one of the downstreams of Bharti Airtel (AS9498) why is it routing through that? 
+### Look at the 6th hop, `2402:6800:760:7::72` belongs to AS55429 Limelight Networks India, which is one of the downstreams of Bharti Airtel (AS9498) why is it routing through that? 
 ![[Pasted image 20230501151654.png]]
 
 
-#### If are a user using Vi internet, the routing is even worse. 
+### If are a user using Vi internet, the routing is even worse. 
 
 ```c
 ➜ mtr -wr 2402:8100:3149:9ee8:2859:60ff:fedf:1ac6      
@@ -94,8 +94,8 @@ HOST: phoenix                                              Loss%   Snt   Last   
 
 ```
 
-#### It goes from: 
+### It goes from: 
 
-##### India (Airtel) --> Germany (HE.net) --> UK (Level3) --> India (Vi) with RTT of more than 200ms
+### India (Airtel) --> Germany (HE.net) --> UK (Level3) --> India (Vi) with RTT of more than 200ms
 
 #### I tried connecting from my Vi LTE through a VPN to my server at home, it's literally unusable: very high latency along with packetloss. They need to do something about this.
