@@ -4,11 +4,11 @@ date: "2023-05-01T09:53:15Z"
 tags: ["routing" , "internet" , "vowifi"]
 author: "Shrirang Kahale"
 # author: ["Me", "You"] # multiple authors
-showToc: true
+showToc: false
 TocOpen: false
 hidemeta: false
-comments: false
-description: " "
+comments: true
+description: "Abismal routing between Airtel and Vi"
 canonicalURL: "https://blog.albony.xyz/posts/airtel-vi-bad-routing"
 disableShare: false
 disableHLJS: false
