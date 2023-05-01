@@ -8,7 +8,7 @@ showToc: false
 TocOpen: false
 hidemeta: false
 comments: true
-description: "Abismal routing between Airtel and Vi"
+description: "Abysmal routing between Airtel and Vi"
 canonicalURL: "https://blog.albony.xyz/posts/airtel-vi-bad-routing"
 disableShare: false
 disableHLJS: false
