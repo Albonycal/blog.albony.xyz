@@ -49,7 +49,8 @@ enableEmoji = true
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
-  #description = "Minimal Hugo blog theme with light and dark mode support"
+  description = "My Name is Shrirang Kahale. I'm a 16 y/o, I have a strong interest in Networking, ethical hacking, penetration testing, firmware analysis and network security. I'm also experienced in working with Linux-based servers and enjoy tinkering with them to improve my skills."
+
   mainSections = ['posts']
   toc = true # set to false to disable table of contents 'globally'
   goToTop = true # set to false to disable 'go to top' button
