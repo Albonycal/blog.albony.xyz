@@ -60,7 +60,7 @@ enableEmoji = true
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Shrirang Kahale"
   name = "Shrirang Kahale"
-  description = "My Name is Shrirang Kahale. I'm a 16 y/o, I have a strong interest in Networking, ethical hacking, penetration testing, firmware analysis and network security. I'm also experienced in working with Linux-based servers and enjoy tinkering with them to improve my skills."
+  description = "Linux, Networking and more :)"
 
 
 # Allow to override webmanifest options
