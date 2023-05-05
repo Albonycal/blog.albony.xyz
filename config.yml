@@ -1,7 +1,7 @@
 baseURL: "https://blog.albony.xyz/"
 title: Shrirang Kahale
 paginate: 5
-theme: Holy
+theme: holy
 
 params:
     # defaultTheme: light
