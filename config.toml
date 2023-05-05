@@ -59,13 +59,14 @@ enableEmoji = true
   avatar = "avatar.png" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Shrirang Kahale"
-  #name = "Sidharth R"
-  #description = "A fast, minimalistic Hugo theme with light and dark mode support, for running a personal site or blog"
+  name = "Shrirang Kahale"
+  description = "My Name is Shrirang Kahale. I'm a 16 y/o, I have a strong interest in Networking, ethical hacking, penetration testing, firmware analysis and network security. I'm also experienced in working with Linux-based servers and enjoy tinkering with them to improve my skills."
+
 
 # Allow to override webmanifest options
 [params.webmanifest]
   name = "Shrirang Kahale" # will use "params.sitename" or "title" by default
-  short_name = "Shrirang Kahale" # same as name
+  short_name = "Albony" # same as name
   start_url = "/" # will use homepage url by default
   theme_color = "#434648" # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
   background_color = "#fff" # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
