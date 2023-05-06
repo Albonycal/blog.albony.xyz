@@ -1,7 +1,7 @@
 ---
 title: "Covid Lockdowns, And My Learning Journey"
-date: date -u +"%Y-%m-%dT%H:%M:%SZ"
-tags: [" " , " "]
+date: "2023-05-06T18:29:57Z"
+tags: ["learning" , "hacking"]
 author: "Shrirang Kahale"
 # author: ["Me", "You"] # multiple authors
 showToc: false
