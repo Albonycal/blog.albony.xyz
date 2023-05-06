@@ -46,5 +46,7 @@ The COVID lockdown provided me with the time and opportunity to explore my inter
 
 If you are truely passionate about something, nothing can stop you. Being passionate is an important part of learning, you will be bored very soon if you don't geniunly care about learning. 
 
+I currently host a linux mirror, and if you want to support that: https://shrirangkahale.com/donate
+
 ##### Anyways, Thank you for reading! 
 ##### ~ Shrirang Kahale
