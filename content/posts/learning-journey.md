@@ -42,9 +42,9 @@ Despite my love for reading, I'm a believer in practical learning. Most of what 
 
 As the lockdown period came to an end, I returned to school, but my interest in cybersecurity and Linux didn't fade away. Towards the end of last year, I bought a new laptop and wanted to do something with the old one. I decided to start doing server stuff and hosting self-hosted services, which was a great learning experience.
 
-The COVID lockdown provided me with the time and opportunity to explore my interest in cybersecurity and Linux. Thanks to the Raspberry Pi, books, and practical learning, I gained a lot of experience and knowledge during this time. I'm grateful for the lockdown, which allowed me to develop a new set of skills that I'm passionate about. It's crazy how much one can learn within a short period of time, come to think of it, humans learn *something* everyday, everyhour, everyminute and we don't even realize it. 
+The COVID lockdown provided me with the time and opportunity to explore my interest in cybersecurity and Linux. Thanks to the Raspberry Pi, books, and practical learning, I gained a lot of experience and knowledge during this time. I'm grateful for the lockdown, which allowed me to develop a new set of skills that I'm passionate about. It's crazy how much one can learn within a short period of time, come to think of it, people learn *something* everyday, everyhour, everyminute and we don't even realize it. 
 
 If you are truely passionate about something, nothing can stop you. Being passionate is an important part of learning, you will be bored very soon if you don't geniunly care about learning. 
 
 ##### Anyways, Thank you for reading! 
-##### ~ Shrirang Kahale%
+##### ~ Shrirang Kahale
