@@ -26,8 +26,9 @@ cover:
      image: "/mirror.png"
 ---
 ## [mirror.albony.xyz](https://mirror.albony.xyz)
-#### Currently mirroring 7 repositories.
-(archlinux, raspberry pi os, manjaro, armbian, termux blackarch, chaotic-aur)
+#### Currently mirroring 11 repositories.
+(archlinux, endeavouros, linuxmint, artixlinux, cachylinux, fdroid, manjaro, armbian, termux, blackarch and chaotic-aur)
+#### This mirror has 1Gbits/s bandwidth and it's hosted in Nagpur, India.
 #### I get more than **14TB in traffic** and more than **14 Million requests** per month,
 ![Traffic goes brrrr...](/traffic.png)
 ![](/traffic1.png)
