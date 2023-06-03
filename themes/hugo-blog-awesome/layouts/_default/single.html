@@ -18,6 +18,9 @@
             <div class="page-content">
                 {{ .Content }}
             </div>
+            <div>
+                {{ template "_internal/disqus.html" . }}
+            </div>
         </article>
     </main>
 </div>
