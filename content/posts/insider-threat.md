@@ -59,4 +59,4 @@ editPost:
 
 ##### The second thing is to make sure everyone in the organisation is aware about social engineering attacks and insider threats. And there should be proper security controls regarding who can access the critical data. For instance, some in marketing shouldn't be able to access  company's intellectual property, right?
 
-##### Anyways, thank you for reading!  This was just me randomly expressing my thoughts. %
+##### Anyways, thank you for reading!  This was just me randomly expressing my thoughts. 
