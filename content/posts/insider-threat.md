@@ -1,7 +1,7 @@
 ---
 title: "Why Indian Companies Are More Vulnerable To Insider Threats"
-date: date -u +"%Y-%m-%dT%H:%M:%SZ"
-tags: [" " , " "]
+date: "2023-06-21T13:00:50Z"
+tags: ["insider threat" , "my-thoughts"]
 author: "Shrirang Kahale"
 # author: ["Me", "You"] # multiple authors
 showToc: true
