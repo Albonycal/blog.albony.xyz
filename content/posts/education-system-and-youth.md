@@ -52,16 +52,15 @@ What is today's youth doing then? "Instagram Reels" "Youtube Shorts".
 Today's youth spends most of their time scrolling endlessly on their mobile phones. 
 
 This has more impact on their mental health than they realize. These short format videos increase level of impatience in people,
-reduces focus and converts the curious and remarkable thing called "human brain" into a thirsty dopomine seeker. 
+reduces focus and converts the curious and remarkable thing called "human brain" into a dopamine seeker that craves for the easiest way to get dopamine. 
 
-###### A simple example of this, in my classroom the teacher was dictation notes and we were writing. He was dictating 
-###### at an exteremly reasonable pace, yet most of the students were unable to keep up with this. 
+###### A simple example of this, in my classroom the teacher was dictation notes and we were writing. He was dictating at an exteremly reasonable pace, yet most of the students were unable to keep up with this. 
 
 Reason? these platforms have reduced the concentration of youth so much that they are unable to remember a word that 
 was uttered literally 10 seconds ago, this is not a joke.
 
 Okay, but surely not *everyone* is waste their time like this right? Yes. 
-Those who are focused on their careers are studying, but what? JEE
+Those who are focused on their careers are studying, but what? **JEE**
 
 Good rank in Joint Entrance Exams (JEE) is required for students who want to purse engineering to get admission in IITs 
 (Indian Institutue Of Technology) these exams are highly unrealistic and pointless. Sometimes the students get so depressed 
