@@ -47,12 +47,15 @@ or innovation. This system explicitly discourages curiosity among the youth.
 ### Today's Youth
 
 We all have heard the stories of the older generation, how they used to spend their time roaming and playing outside.
+
 What is today's youth doing then? "Instagram Reels" "Youtube Shorts". 
 Today's youth spends most of their time scrolling endlessly on their mobile phones. 
+
 This has more impact on their mental health than they realize. These short format videos increase level of impatience in people,
 reduces focus and converts the curious and remarkable thing called "human brain" into a thirsty dopomine seeker. 
-A simple example of this, in my classroom the teacher was dictation notes and we were writing. He was dictating 
-at an exteremly reasonable pace, yet most of the students were unable to keep up with this. 
+
+###### A simple example of this, in my classroom the teacher was dictation notes and we were writing. He was dictating 
+###### at an exteremly reasonable pace, yet most of the students were unable to keep up with this. 
 
 Reason? these platforms have reduced the concentration of youth so much that they are unable to remember a word that 
 was uttered literally 10 seconds ago, this is not a joke.
@@ -65,8 +68,6 @@ Good rank in Joint Entrance Exams (JEE) is required for students who want to pur
 and pressurized that they commit suicide, there have been a lot of student suicides due to JEE. 
 The city "Kota" in Rajasthan is the hub of this "rat race".
 
-I am also one such rat in this rat race of JEE :) 
-
 They only exist to "filter out" people. The highly competetive nature of these exams actually damages curiosity 
 and the will to learn in students. 
 
@@ -76,14 +77,16 @@ Nope.
 The syllabus in the engineering colleges is so outdated that it simply can't compete with the pace that technology grows. 
 Again the focus is on by-hearting the syllabus and gaining marks, no one talks about innovation and R&D. 
 
-All they wait for is their "campus selection". 
+The Indian "talent" wastes time in doing pointless things like college projects (which aren't practical atall and most copy from the internet)
+
+![meme](/well_trained.jpg)
 
 The education system needs a major reform, The Government Of India has introduced NEP (National Education Policy) that *attempts* 
 to fix this problem, but I don't see this improving things as of now.
 
 That was about the people who are motivated to get a job and earn money. 
 But surprisingly, there are people who want to do.. *nothing* 
-All they do is waste their time and *live* 
+They have no purpose, no motivation in life. 
 
 ### "Lack Of Jobs" 
 
