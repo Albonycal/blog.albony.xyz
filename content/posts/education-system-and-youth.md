@@ -1,7 +1,7 @@
 ---
 title: "The Cobwebs of Indian Education System"
 date: "2023-08-30T14:20:07Z"
-tags: [" " , " "]
+tags: ["education system" , "engineering"]
 author: "Shrirang Kahale"
 showToc: true
 TocOpen: false
