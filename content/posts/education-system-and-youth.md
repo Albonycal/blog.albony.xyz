@@ -54,7 +54,7 @@ Today's youth spends most of their time scrolling endlessly on their mobile phon
 This has more impact on their mental health than they realize. These short format videos increase level of impatience in people,
 reduces focus and converts the curious and remarkable thing called "human brain" into a dopamine seeker that craves for the easiest way to get dopamine. 
 
-###### A simple example of this, in my classroom the teacher was dictation notes and we were writing. He was dictating at an exteremly reasonable pace, yet most of the students were unable to keep up with this. 
+###### A simple example of this, in my classroom the teacher was dictating notes and we were writing. He was dictating at an exteremly reasonable pace, yet most of the students were unable to keep up with this. 
 
 Reason? these platforms have reduced the concentration of youth so much that they are unable to remember a word that 
 was uttered literally 10 seconds ago, this is not a joke.
@@ -79,9 +79,6 @@ Again the focus is on by-hearting the syllabus and gaining marks, no one talks a
 The Indian "talent" wastes time in doing pointless things like college projects (which aren't practical atall and most copy from the internet)
 
 ![meme](/well_trained.jpg)
-
-The education system needs a major reform, The Government Of India has introduced NEP (National Education Policy) that *attempts* 
-to fix this problem, but I don't see this improving things as of now.
 
 That was about the people who are motivated to get a job and earn money. 
 But surprisingly, there are people who want to do.. *nothing* 
@@ -110,9 +107,18 @@ Literally everyone in India has a smartphone and access to affordable internet.
 
 The sad reality is that spirit of engineering seems to be dead :\
 
+### What can be done
+
 We must ask ourselves, why do these *engineers* do not have the proper skillsets? Because the education system here is not based 
 upon real-world practical knowledge. Most of the engineers who are successful in their career are due to self-taught knowledge. 
 What we can do is encourage curiosity and motivate youngsters to learn themselves. 
+
+The education system needs a major reform, The Government Of India has introduced NEP (National Education Policy) that *attempts* 
+to fix this problem.
+
+This NEP attempts to prioritise skill based education (Read more here: https://en.wikipedia.org/wiki/National_Education_Policy_2020) 
+I don't see this improving the situation as of now. 
+
 
 I was invited to give a guest lecture to 2nd year students of a polytechnic college a few days ago, it felt nice to interact with these people 
 and I was proud that I was able to make these people curious about technology!
