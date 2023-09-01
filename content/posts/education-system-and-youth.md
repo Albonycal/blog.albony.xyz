@@ -31,7 +31,7 @@ editPost:
 ###### I write this as when India has successfully landed and is carrying out it's Chandrayan-3 mission.
 ###### India has become the first country to land on Moon's South Pole, I'd like to congratulate all the people who were involved in this mission.
 
-Anyway, I stumbled upon this old essay from 1999, the title is "INDIAN TALENT CAUGHT IN THE COBWEBS",
+Anyway, I stumbled upon this old essay from 1999, titled "INDIAN TALENT CAUGHT IN THE COBWEBS",
 It mentions how Indian society in general resists change.
 
 > The inability to assimilate and adopt new knowledge by a society which is otherwise extremely lively, vibrant, intelligent and knowledgeable seems strange. 
@@ -59,12 +59,21 @@ reduces focus and converts the curious and remarkable thing called "human brain"
 Reason? these platforms have reduced the concentration of youth so much that they are unable to remember a word that 
 was uttered literally 10 seconds ago, this is not a joke.
 
+They get an unrealistic idea of life from those "content creators" who are in reality just engagement farms. 
+
+Today's youth also likes to "jump on the bandwagon" and wants to do all the "cool things" social media comes up with. 
+They don't make their own decisions, rather they are influenced heavily by what others and these "content creators" do. 
+
+
 Okay, but surely not *everyone* is waste their time like this right? Yes. 
 Those who are focused on their careers are studying, but what? **JEE**
 
 Good rank in Joint Entrance Exams (JEE) is required for students who want to purse engineering to get admission in IITs 
 (Indian Institutue Of Technology) these exams are highly unrealistic and pointless. Sometimes the students get so depressed 
-and pressurized that they commit suicide, there have been a lot of student suicides due to JEE. 
+and pressurized that they commit suicide, there have been a lot of student suicides due to JEE. Again, I think social media also plays a part in these cases.
+They get an unrealistic idea of life from social media, they see people "succeeding" in everything. No one talks about failures, this makes them depressed and they steps like this. 
+Such types of exams are not healthy at all, and parents also put a lot of pressure on their children.
+
 The city "Kota" in Rajasthan is the hub of this "rat race".
 
 They only exist to "filter out" people. The highly competetive nature of these exams actually damages curiosity 
@@ -76,7 +85,12 @@ Nope.
 The syllabus in the engineering colleges is so outdated that it simply can't compete with the pace that technology grows. 
 Again the focus is on by-hearting the syllabus and gaining marks, no one talks about innovation and R&D. 
 
-The Indian "talent" wastes time in doing pointless things like college projects (which aren't practical atall and most copy from the internet)
+The year is 2023, and colleges are still asking students to write code **ON PAPER**.
+And they do "Save Life, Save Trees" campaign the very next day. 
+
+Yes, no IDEs nothing. How can we expect them to teach anything practical?? 
+
+The Indian "talent" wastes time in doing pointless things, like college projects (which aren't practical atall and most copy from the internet)
 
 ![meme](/well_trained.jpg)
 
@@ -111,7 +125,6 @@ The sad reality is that spirit of engineering seems to be dead :\
 
 We must ask ourselves, why do these *engineers* do not have the proper skillsets? Because the education system here is not based 
 upon real-world practical knowledge. Most of the engineers who are successful in their career are due to self-taught knowledge. 
-What we can do is encourage curiosity and motivate youngsters to learn themselves. 
 
 The education system needs a major reform, The Government Of India has introduced NEP (National Education Policy) that *attempts* 
 to fix this problem.
@@ -119,6 +132,17 @@ to fix this problem.
 This NEP attempts to prioritise skill based education (Read more here: https://en.wikipedia.org/wiki/National_Education_Policy_2020) 
 I don't see this improving the situation as of now. 
 
+They need to give lesser emphasis on rote learning methods, such type of system is utterly useless as people mostly forget what they "learnt" after a period of time. 
+
+The whole college system needs to be revised for efficiency and newer skill based syllabus.
+
+Major changes should be done to the competetive exam pattern, exams should be based upon real life and practical things.
+
+I am unable to think what can be done regarding the social media problem. Any comments will be appreciated. 
+
+What we can do as a society is encourage curiosity and emphasis of knowledge vs marks. 
+(Quality vs Quantity) 
+I for instance, hardly see anyone with passion for technology, one needs that natural curiosity and the thirst for knowledge, which is absent in most.
 
 I was invited to give a guest lecture to 2nd year students of a polytechnic college a few days ago, it felt nice to interact with these people 
 and I was proud that I was able to make these people curious about technology!
