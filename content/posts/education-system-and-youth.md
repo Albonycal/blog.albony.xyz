@@ -28,8 +28,8 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 
 ---
-###### I write this as when India has successfully landed and is carrying out it's Chandrayan-3 mission.
-###### India has become the first country to land on Moon's South Pole, I'd like to congratulate all the people who were involved in this mission.
+###### I write this as when India has successfully landed and is carrying out it's Chandrayan-3 mission. This is a very proud moment for each and every Indian.
+###### India has become the first country to land on Moon's South Pole, I'd like to congratulate all the people who were involved in this mission!
 
 Anyway, I stumbled upon this old essay from 1999, titled "INDIAN TALENT CAUGHT IN THE COBWEBS",
 It mentions how Indian society in general resists change.
