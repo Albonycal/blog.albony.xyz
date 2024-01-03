@@ -144,15 +144,15 @@ What we can do as a society is encourage curiosity and emphasis of knowledge vs 
 (Quality vs Quantity) 
 I for instance, hardly see anyone with passion for technology, one needs that natural curiosity and the thirst for knowledge, which is absent in most.
 
-I was invited to give a guest lecture to 2nd year students of a polytechnic college a few days ago, it felt nice to interact with these people 
-and I was proud that I was able to make these people curious about technology!
 
-The topic of my lecture was "Introduction to Hacking" and I discussed and taught the basic skills required and give them a *gist* of what hacking is. 
+PS: I was invited to give a guest lecture to 2nd year students of a polytechnic college a few days ago, it felt good to interact with these people 
+    and that I was able to make these people curious about technology!
+    The topic of my lecture was "Introduction to Hacking" and I discussed and taught the basic skills required and give them a *gist* of what hacking is. 
 
-Anyway, this the end of my RANT / mind-dump. 
+
+Anyway 
 
 Thank you for reading! 
 
-P.S again, the essay linked on the top is a must read for everyone, it's very well written.
 
 ~ Shrirang Kahale
