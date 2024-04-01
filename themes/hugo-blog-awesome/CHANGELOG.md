@@ -1,5 +1,332 @@
 # Changelog
 
+## [1.14.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.13.0...v1.14.0) (2024-03-10)
+
+
+### :sparkles: Features
+
+* add support for German language ([13974fe](https://github.com/hugo-sid/hugo-blog-awesome/commit/13974fed8eccebdcf479a6f6987a817f09af4221))
+* **deps:** upgrade KaTeX to `0.16.9` ([#168](https://github.com/hugo-sid/hugo-blog-awesome/issues/168)) ([8ef1756](https://github.com/hugo-sid/hugo-blog-awesome/commit/8ef1756dfe2e61f983ccf60685ee3497563e9f80))
+* enable theme to be used as Hugo module ([#169](https://github.com/hugo-sid/hugo-blog-awesome/issues/169)) ([3356999](https://github.com/hugo-sid/hugo-blog-awesome/commit/3356999b5bf2dde792c41842ac858b35588655b2))
+
+
+### :bug: Bug Fixes
+
+* Disqus deprecation warning, upgrade Hugo version ([#166](https://github.com/hugo-sid/hugo-blog-awesome/issues/166)) ([9f9c93a](https://github.com/hugo-sid/hugo-blog-awesome/commit/9f9c93a2ccbc0a765b750faf1654dc335a56a3ff))
+* RSS link on post pages, closes [#160](https://github.com/hugo-sid/hugo-blog-awesome/issues/160) ([#173](https://github.com/hugo-sid/hugo-blog-awesome/issues/173)) ([f321f1c](https://github.com/hugo-sid/hugo-blog-awesome/commit/f321f1c1d5f05b1e275a0b0caad20b19ac609153))
+* twitter_simple shortcode, paginator issue since hugo `v0.123.0` ([#170](https://github.com/hugo-sid/hugo-blog-awesome/issues/170)) ([9f042a8](https://github.com/hugo-sid/hugo-blog-awesome/commit/9f042a81f72ce4d2045ec4eb89948523297feccc))
+* typos ([#167](https://github.com/hugo-sid/hugo-blog-awesome/issues/167)) ([0ca8845](https://github.com/hugo-sid/hugo-blog-awesome/commit/0ca88453c4b1e0a2085621368a1679450d813c91))
+
+
+### :hammer: Housekeeping
+
+* update contribution guideline, issue template ([#175](https://github.com/hugo-sid/hugo-blog-awesome/issues/175)) ([1983d64](https://github.com/hugo-sid/hugo-blog-awesome/commit/1983d6433bd34a452a4ddcd548461b4e8c000afb))
+* update list of websites using this theme ([#164](https://github.com/hugo-sid/hugo-blog-awesome/issues/164)) ([3493495](https://github.com/hugo-sid/hugo-blog-awesome/commit/34934950ab7c6963dab2b421bbefbfa8dced673c))
+
+
+### :construction_worker: CI/CD
+
+* run stale.yml workflow manually ([4c79934](https://github.com/hugo-sid/hugo-blog-awesome/commit/4c799345b5c8daa186baf5ce22a306d5b84ca9c4))
+
+## [1.13.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.12.0...v1.13.0) (2023-12-22)
+
+
+### :sparkles: Features
+
+* add ability to enable toc on certain posts ignore global toc settings ([#143](https://github.com/hugo-sid/hugo-blog-awesome/issues/143)) ([d2a95ac](https://github.com/hugo-sid/hugo-blog-awesome/commit/d2a95acfa909796b555f29f46fe27f257798263a))
+* add Russian language support ([#145](https://github.com/hugo-sid/hugo-blog-awesome/issues/145)) ([fc80687](https://github.com/hugo-sid/hugo-blog-awesome/commit/fc806873c8dbdce13840ee46dbef2ae45eaed2a6))
+
+
+### :bug: Bug Fixes
+
+* inconsistent appearance of inline code, in lists, in light theme ([#159](https://github.com/hugo-sid/hugo-blog-awesome/issues/159)) ([a0129f7](https://github.com/hugo-sid/hugo-blog-awesome/commit/a0129f79306556a752b5e20a2fe94f8efe5d8b3d))
+* post title width on small screens, closes [#136](https://github.com/hugo-sid/hugo-blog-awesome/issues/136) ([#153](https://github.com/hugo-sid/hugo-blog-awesome/issues/153)) ([b8b4753](https://github.com/hugo-sid/hugo-blog-awesome/commit/b8b4753e4db009a59ed81616c2a127b10243d8b8))
+
+
+### :construction_worker: CI/CD
+
+* update stale.yml GitHub action ([#150](https://github.com/hugo-sid/hugo-blog-awesome/issues/150)) ([e96f650](https://github.com/hugo-sid/hugo-blog-awesome/commit/e96f650d055d7a011f9f3569c4af5fc574cb1a1e))
+
+## [1.12.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.11.0...v1.12.0) (2023-10-31)
+
+
+### :sparkles: Features
+
+* add parameter to open ToC globally or in frontmatter of post ([#138](https://github.com/hugo-sid/hugo-blog-awesome/issues/138)) ([a6ece0e](https://github.com/hugo-sid/hugo-blog-awesome/commit/a6ece0e3804b1b98cc29f359169de03c14f0e980))
+
+
+### :bug: Bug Fixes
+
+* improve accessibility of language selector ([#131](https://github.com/hugo-sid/hugo-blog-awesome/issues/131)) ([5f52bb2](https://github.com/hugo-sid/hugo-blog-awesome/commit/5f52bb241503fea11b33b3b1376378accb9024f1))
+
+
+### :construction_worker: CI/CD
+
+* update GitHub access token for release please ([#134](https://github.com/hugo-sid/hugo-blog-awesome/issues/134)) ([94f92a6](https://github.com/hugo-sid/hugo-blog-awesome/commit/94f92a6cf3acb756b2a3c89fb908b7f2b05ba0f1))
+
+## [1.11.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.10.0...v1.11.0) (2023-09-25)
+
+
+### :sparkles: Features
+
+* add multilingual mode (websites with multiple languages side by side) ([#127](https://github.com/hugo-sid/hugo-blog-awesome/issues/127)) ([b7644e2](https://github.com/hugo-sid/hugo-blog-awesome/commit/b7644e2cf1c112ee85a1e8d889f48e8f739802db))
+
+
+### :bug: Bug Fixes
+
+* hugo error when dateFormat parameter is not set, closes [#128](https://github.com/hugo-sid/hugo-blog-awesome/issues/128) ([730ced7](https://github.com/hugo-sid/hugo-blog-awesome/commit/730ced7716e909d904ba058a2748f3eeb77a431e))
+* ToC setting bug, closes [#120](https://github.com/hugo-sid/hugo-blog-awesome/issues/120) ([cb695b1](https://github.com/hugo-sid/hugo-blog-awesome/commit/cb695b19d8bf3be30cd61029bd28e3f86f9af9b5))
+
+
+### :hammer: Housekeeping
+
+* add link, fix typo in readme ([ab16ba1](https://github.com/hugo-sid/hugo-blog-awesome/commit/ab16ba14b3bfbf365c86ae151241fef3f9b16292))
+* add rel='noopener' for external link ([6c767d1](https://github.com/hugo-sid/hugo-blog-awesome/commit/6c767d167d28febcc1971c5f0b8bb7ea1f7d0af5))
+* fix typo in `README.md` ([46147ae](https://github.com/hugo-sid/hugo-blog-awesome/commit/46147ae8348c1a517b0cd3361ab73d246377d601))
+* modify footer branding text ([41e6f8e](https://github.com/hugo-sid/hugo-blog-awesome/commit/41e6f8e8342a776356d75bef737da86d7fb58aad))
+* update bug report issue template ([923ddfd](https://github.com/hugo-sid/hugo-blog-awesome/commit/923ddfd4de684c0637ad11440035b9c06c87f480))
+* update links in `README.md` [skip ci] ([e414a38](https://github.com/hugo-sid/hugo-blog-awesome/commit/e414a382069efe7065365eed347bff2836621c16))
+* update note ([59d4b68](https://github.com/hugo-sid/hugo-blog-awesome/commit/59d4b6810226a0aef25b52b72e3f44fc79b994cc))
+
+
+### :memo: Documentation
+
+* add docs for setting ToC ([b0ffc61](https://github.com/hugo-sid/hugo-blog-awesome/commit/b0ffc61be6e7369b875586e9b3a3e54549509620))
+* add documentation regarding default date format ([97ccc77](https://github.com/hugo-sid/hugo-blog-awesome/commit/97ccc77bf81c0d2b00184a9287cb59b1837950b5))
+
+
+### :construction_worker: CI/CD
+
+* pin third-party GitHub actions by hash ([#119](https://github.com/hugo-sid/hugo-blog-awesome/issues/119)) ([218ea44](https://github.com/hugo-sid/hugo-blog-awesome/commit/218ea44a1a66e0c9a9ab0b5764576ba4fa92bc03))
+
+## [1.10.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.9.0...v1.10.0) (2023-09-18)
+
+
+### :sparkles: Features
+
+* **RSS:** add support for full post content in RSS feed, closes [#109](https://github.com/hugo-sid/hugo-blog-awesome/issues/109) ([b7a4e4c](https://github.com/hugo-sid/hugo-blog-awesome/commit/b7a4e4cca192258135d2645b5d87a82fa31d9255))
+
+
+### :hammer: Housekeeping
+
+* **README:** update list of websites using this theme ([#116](https://github.com/hugo-sid/hugo-blog-awesome/issues/116)) ([deffb2c](https://github.com/hugo-sid/hugo-blog-awesome/commit/deffb2ce703c981e06177f877a6d3bc9eb69364d))
+
+
+### :construction_worker: CI/CD
+
+* update Hugo version for Netlify builds ([aa7630b](https://github.com/hugo-sid/hugo-blog-awesome/commit/aa7630b4295384b3ecddb14f826dbd1ab1535c52))
+
+## [1.9.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.8.0...v1.9.0) (2023-09-13)
+
+
+### :sparkles: Features
+
+* add support for custom date formatting ([09a204c](https://github.com/hugo-sid/hugo-blog-awesome/commit/09a204cebca09bc76bc76abebb856b2eb27c010c))
+
+
+### :bug: Bug Fixes
+
+* logo not displaying in readme, closes [#106](https://github.com/hugo-sid/hugo-blog-awesome/issues/106), PR ([#107](https://github.com/hugo-sid/hugo-blog-awesome/issues/107)) ([7042eaf](https://github.com/hugo-sid/hugo-blog-awesome/commit/7042eaf4d5df7e2be70ddce44db2f658f5af75af))
+
+
+### :hammer: Housekeeping
+
+* update list of websites using this theme ([#110](https://github.com/hugo-sid/hugo-blog-awesome/issues/110)) ([366a762](https://github.com/hugo-sid/hugo-blog-awesome/commit/366a76299d6daebd1d8fd31fc05897d9b5a52a74))
+* update post title ([e0abd99](https://github.com/hugo-sid/hugo-blog-awesome/commit/e0abd993c32bc7381fc4942d6565baa1bc6ba087))
+
+## [1.8.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.7.0...v1.8.0) (2023-08-26)
+
+
+### :sparkles: Features
+
+* include `_custom.scss` to facilitate quick and simple CSS adjustments, closes [#93](https://github.com/hugo-sid/hugo-blog-awesome/issues/93) ([#104](https://github.com/hugo-sid/hugo-blog-awesome/issues/104)) ([c95d4e7](https://github.com/hugo-sid/hugo-blog-awesome/commit/c95d4e79e95d6dcdc273d472e23911bb5e110854))
+
+
+### :bug: Bug Fixes
+
+* avatar with transparent bg is always black closes [#92](https://github.com/hugo-sid/hugo-blog-awesome/issues/92) ([a64bffd](https://github.com/hugo-sid/hugo-blog-awesome/commit/a64bffdcf4659eea145263808ed25ea0e43ce700))
+
+
+### :hammer: Housekeeping
+
+* **README:** update logo alt text ([#105](https://github.com/hugo-sid/hugo-blog-awesome/issues/105)) ([67f6473](https://github.com/hugo-sid/hugo-blog-awesome/commit/67f6473c56e2b0ce5e8a40b875c72232b56b0e95))
+
+## [1.7.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.6.0...v1.7.0) (2023-08-26)
+
+
+### :sparkles: Features
+
+* add config for Dev containers ([#102](https://github.com/hugo-sid/hugo-blog-awesome/issues/102)) ([fb4ebca](https://github.com/hugo-sid/hugo-blog-awesome/commit/fb4ebca661c75d24145307b70bf95e8956bd21df))
+* add social icon for Nostr ([#100](https://github.com/hugo-sid/hugo-blog-awesome/issues/100)) ([eb20024](https://github.com/hugo-sid/hugo-blog-awesome/commit/eb200246e13484e06da65320be59ddc3466000fe))
+
+## [1.6.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.5.3...v1.6.0) (2023-08-21)
+
+
+### :sparkles: Features
+
+* add IRC and health icon ([#96](https://github.com/hugo-sid/hugo-blog-awesome/issues/96)) ([beb30ce](https://github.com/hugo-sid/hugo-blog-awesome/commit/beb30ceadcba1a5872c2df95402373ea3dc44aa3))
+* add support for x.com logo/icon ([#91](https://github.com/hugo-sid/hugo-blog-awesome/issues/91)) ([20c2ea8](https://github.com/hugo-sid/hugo-blog-awesome/commit/20c2ea89287bcd1d5c5129cd0d4cfc3dcb0e9356))
+
+## [1.5.3](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.5.2...v1.5.3) (2023-07-28)
+
+
+### :bug: Bug Fixes
+
+* bold font on active menu item ([#88](https://github.com/hugo-sid/hugo-blog-awesome/issues/88)) ([88cfd5d](https://github.com/hugo-sid/hugo-blog-awesome/commit/88cfd5dfd097b9c43ea4a91351ee8c739d318862))
+
+## [1.5.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.5.1...v1.5.2) (2023-07-26)
+
+
+### :bug: Bug Fixes
+
+* allow setting default theme(color mode) in no-script browsers closes [#50](https://github.com/hugo-sid/hugo-blog-awesome/issues/50) (PR [#85](https://github.com/hugo-sid/hugo-blog-awesome/issues/85)) ([970bdd9](https://github.com/hugo-sid/hugo-blog-awesome/commit/970bdd9f85b3ad2641bb26724f0b2eb7515c570b))
+* change `fadein` keyframe value from 0.8 to 1 (for opacity 100%) ([#86](https://github.com/hugo-sid/hugo-blog-awesome/issues/86)) ([79a3101](https://github.com/hugo-sid/hugo-blog-awesome/commit/79a31018c35e9991c50ddce435e1c2ed129ffa0b))
+
+## [1.5.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.5.0...v1.5.1) (2023-07-12)
+
+
+### :bug: Bug Fixes
+
+* make specifying date optional ([#83](https://github.com/hugo-sid/hugo-blog-awesome/issues/83)) ([864f523](https://github.com/hugo-sid/hugo-blog-awesome/commit/864f523143b35b65e64a2b85182b1a269451da5a))
+
+## [1.5.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.4.2...v1.5.0) (2023-07-12)
+
+
+### :sparkles: Features
+
+* update favicons ([#81](https://github.com/hugo-sid/hugo-blog-awesome/issues/81)) ([c3d2f26](https://github.com/hugo-sid/hugo-blog-awesome/commit/c3d2f260c38cadf2052d7f355167ae8aab3ba01b))
+
+
+### :hammer: Housekeeping
+
+* update logo ([#79](https://github.com/hugo-sid/hugo-blog-awesome/issues/79)) ([d8dfc4d](https://github.com/hugo-sid/hugo-blog-awesome/commit/d8dfc4dfc299d65a84a287cd623fdaa95ee342ed))
+* update README.md - add contributors ([#82](https://github.com/hugo-sid/hugo-blog-awesome/issues/82)) ([677f465](https://github.com/hugo-sid/hugo-blog-awesome/commit/677f4652e9dcdbc90275dcbeab448893e6121a71))
+
+## [1.4.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.4.1...v1.4.2) (2023-06-26)
+
+
+### :hammer: Housekeeping
+
+* update list of websites using this theme ([#73](https://github.com/hugo-sid/hugo-blog-awesome/issues/73)) ([de04339](https://github.com/hugo-sid/hugo-blog-awesome/commit/de04339aca28087969821b04ccf349dfc56c9449))
+
+## [1.4.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.4.0...v1.4.1) (2023-06-23)
+
+
+### :hammer: Housekeeping
+
+* add bskdany.com to readme ([#71](https://github.com/hugo-sid/hugo-blog-awesome/issues/71)) ([d4a0889](https://github.com/hugo-sid/hugo-blog-awesome/commit/d4a08891d5c5b1598f3b57fe15ade331f94e8fdb))
+
+## [1.4.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.3.0...v1.4.0) (2023-06-21)
+
+
+### :bug: Bug Fixes
+
+* deprecated Twitter post format ([#67](https://github.com/hugo-sid/hugo-blog-awesome/issues/67)) ([8968732](https://github.com/hugo-sid/hugo-blog-awesome/commit/8968732dd0bda3b4995ba40b34dec168be1767e7))
+
+
+### :sparkles: Features
+
+* add forgejo icon ([#69](https://github.com/hugo-sid/hugo-blog-awesome/issues/69)) ([468682a](https://github.com/hugo-sid/hugo-blog-awesome/commit/468682aee873f03a0ebf2564d79ec05731590c2d))
+
+## [1.3.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.7...v1.3.0) (2023-06-19)
+
+
+### :sparkles: Features
+
+* **ui:** add link hover transition ([112c59b](https://github.com/hugo-sid/hugo-blog-awesome/commit/112c59b991be66ca1dc247125af2991b14f57b5b))
+
+## [1.2.7](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.6...v1.2.7) (2023-06-19)
+
+
+### :bug: Bug Fixes
+
+* move tableOfContents to appropriate section in `config.toml` file ([#64](https://github.com/hugo-sid/hugo-blog-awesome/issues/64)) ([aa199ce](https://github.com/hugo-sid/hugo-blog-awesome/commit/aa199ceffff6a46cb75e1b440245a37cbddd4702))
+
+## [1.2.6](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.5...v1.2.6) (2023-06-16)
+
+
+### :hammer: Housekeeping
+
+* **README:** update list of websites using this theme ([#61](https://github.com/hugo-sid/hugo-blog-awesome/issues/61)) ([c29df07](https://github.com/hugo-sid/hugo-blog-awesome/commit/c29df070326dd93894c8a2edd1ebdd84521420e1))
+
+## [1.2.5](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.4...v1.2.5) (2023-06-15)
+
+
+### :hammer: Housekeeping
+
+* **README:** add websites using this theme ([#60](https://github.com/hugo-sid/hugo-blog-awesome/issues/60)) ([109b200](https://github.com/hugo-sid/hugo-blog-awesome/commit/109b2007bad4ebc5cb2e45f8fb0c82eaad5484dd))
+* **README:** add yukizr.com to the list of websites using this theme ([#57](https://github.com/hugo-sid/hugo-blog-awesome/issues/57)) ([42e9b95](https://github.com/hugo-sid/hugo-blog-awesome/commit/42e9b95868c90bf263a0c7622adcffe1ef57cc4a))
+
+## [1.2.4](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.3...v1.2.4) (2023-06-08)
+
+
+### :construction_worker: CI/CD
+
+* setup OpenSSF scorecard ([23b9c0d](https://github.com/hugo-sid/hugo-blog-awesome/commit/23b9c0d04a20aa4633e3bcdd8fe0fa8661dd433a))
+
+
+### :bug: Bug Fixes
+
+* resolve theme toggle race condition ([#55](https://github.com/hugo-sid/hugo-blog-awesome/issues/55)) ([1c41cce](https://github.com/hugo-sid/hugo-blog-awesome/commit/1c41cce98eb22bd3fbdfe1a2423f29aa09debb34))
+
+## [1.2.3](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.2...v1.2.3) (2023-05-25)
+
+
+### :bug: Bug Fixes
+
+* inline code not being stylized in list items ([#52](https://github.com/hugo-sid/hugo-blog-awesome/issues/52)) ([2585ddb](https://github.com/hugo-sid/hugo-blog-awesome/commit/2585ddb39c3a98bb7612a21ffa8f6bf1965de704))
+
+## [1.2.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.1...v1.2.2) (2023-05-21)
+
+
+### :recycle: Refactoring
+
+* refactor JS ([#39](https://github.com/hugo-sid/hugo-blog-awesome/issues/39)) ([9d9f2bc](https://github.com/hugo-sid/hugo-blog-awesome/commit/9d9f2bc46589f017dbfca714380bcc017de5ea49))
+
+
+### :construction_worker: CI/CD
+
+* increase PR labeler warning limit ([e5f4bf8](https://github.com/hugo-sid/hugo-blog-awesome/commit/e5f4bf8241edf0bac70b3cf326025f5e66f06893))
+
+## [1.2.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.0...v1.2.1) (2023-05-16)
+
+
+### :memo: Documentation
+
+* update instructions for adding favicon ([4438214](https://github.com/hugo-sid/hugo-blog-awesome/commit/4438214567c515feeabaa61204c4c3b1c1f0da02))
+
+
+### :hammer: Housekeeping
+
+* **ci:** add comments for GitHub action workflow trigger ([4e83639](https://github.com/hugo-sid/hugo-blog-awesome/commit/4e83639c42cec577c8e592a6dbc930b296348ffc))
+* **ci:** change emojis used in changelog ([2514abd](https://github.com/hugo-sid/hugo-blog-awesome/commit/2514abdb6e5274167509a892b10244f336fff290))
+
+
+### :bug: Bug Fixes
+
+* baseURL variable on See all posts button ([#38](https://github.com/hugo-sid/hugo-blog-awesome/issues/38)) ([6e12b25](https://github.com/hugo-sid/hugo-blog-awesome/commit/6e12b25c988a9770d954451ecb8cef848436408a))
+
+## [1.2.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.1.2...v1.2.0) (2023-05-10)
+
+
+### :sparkles: Features
+
+* add support for comments ([#44](https://github.com/hugo-sid/hugo-blog-awesome/issues/44)) ([685ebf6](https://github.com/hugo-sid/hugo-blog-awesome/commit/685ebf62bdfd8d1fc3f9add78a6aa2b5190eacfb))
+
+
+### :hammer: Miscellaneous
+
+* **repo:** add info regarding changelog ([82eee54](https://github.com/hugo-sid/hugo-blog-awesome/commit/82eee5423fc9ca1bbef0e784ebc87548a7f866f9))
+* **repo:** update CONTRIBUTING.md ([4abd77b](https://github.com/hugo-sid/hugo-blog-awesome/commit/4abd77b2f573ac593246a7cd35539979e1e63055))
+* **repo:** update README.md ([225237f](https://github.com/hugo-sid/hugo-blog-awesome/commit/225237f69fd292bd10d5ffc6a9fc342734120dfc))
+
+## [1.1.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.1.1...v1.1.2) (2023-05-09)
+
+
+### :construction_worker: CI/CD
+
+* add stale section ([154883e](https://github.com/hugo-sid/hugo-blog-awesome/commit/154883ed2851861f090988a7fdd826cf1fe99f20))
+
 ## [1.1.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.1.0...v1.1.1) (2023-05-05)
 
 
