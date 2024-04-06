@@ -1,5 +1,5 @@
 ---
-title: "The dying excitement of festivals"
+title: "The Dying Excitement Of Festivals"
 date: 2024-04-06T13:09:55Z
 tags: ["life" , "festivals"]
 author: "Shrirang Kahale"
