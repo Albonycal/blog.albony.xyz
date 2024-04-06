@@ -50,7 +50,7 @@ enableEmoji = true
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
-  description = "My Name is Shrirang Kahale. I'm a 16 y/o, I have a strong interest in Networking, ethical hacking, penetration testing, firmware analysis and network security. I'm also experienced in working with Linux-based servers and enjoy tinkering with them to improve my skills."
+  description = "Shrirang Kahale | Linux, Networking and more"
 
   mainSections = ['posts']
   toc = true # set to false to disable table of contents 'globally'
@@ -84,6 +84,10 @@ url = "https://github.com/albonycal"
 [[params.socialIcons]]
 name = "twitter"
 url = "https://twitter.com/albonycal"
+
+[[params.socialIcons]]
+name = "mastodon"
+url = "https://fosstodon.org/@albonycal"
 
 [[params.socialIcons]]
 name = "Rss"
