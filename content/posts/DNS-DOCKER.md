@@ -29,13 +29,18 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 
 ---
-## Setting DNS for all containers in a docker environment
+## Setting DNS in a docker environment
 ![Server](/docker.png)
+
+#### I have a DNS resolver running on my homeserver (adguard home) which also acts as an adblocker. But the host firewall is configured to only accept traffic from my home LAN (10.0.1.0/24)
+#### The containers meanwhile are isolated and do not share the same IP range as my LAN, this leads to DNS queries failing inside the containers.
+
 #### I have noticed that all my containers default to `8.8.8.8` google dns because they are unable to connect to the DNS servers configured for my network.
 #### I have been using a dirty hack to set my own DNS servers. I knew this wasn't the correct way to do it. i.e making a `resolv.conf` in the docker directory and mounting it at `/etc/resolv.conf` in the container :D
 #### It works but isn't the correct and proper way to do it. 
 ##  Configuring `/etc/docker/daemon.json`
 "The Correct Way"
+
 #### You can set the DNS for the docker environment in the `/etc/docker/daemon.json` file.  
 ``` sh
  sudoedit /etc/docker/daemon.json
