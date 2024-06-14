@@ -66,7 +66,7 @@ The weather was cloudy and I was riding on the trusty bike steadily while there 
 ![image_2024-06-13T18-54-29Z.png](/image_2024-06-13T18-54-29Z.png)
 Ridding a bike offroad is not easy, but still quite enjoyable. 
  
-I said goodbye to all the plants I had planted there, some were smaller than my finger when I planted them and now are more than twice my height. 
+I said goodbye to all the plants I had planted there, some were smaller than my fingers when I planted them and now are more than twice my height. 
 
 ![image_2024-06-14T08-54-05Z.png](/image_2024-06-14T08-54-05Z.png)
 
