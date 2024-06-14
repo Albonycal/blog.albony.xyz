@@ -109,11 +109,11 @@ Let's see the definition of an engineer.
 Do you think these so called *engineers* who graduate from colleges fit this definition? 
 
 Personally, I think it's not the lack of jobs in engineering, rather it's just that these people lack the skillset required to be hired. 
-Indian talent is stuck in "cobwebs" doing pointless things. 
+Indian talent is stuck in "cobwebs" doing pointless things. Again, I am not saying the problem doesn't exist, But it's partly due to their own fault. 
 
 In the days of British colonial rule, people suffered from poverty and supression from the British so they were not able to learn 
 and hampered the growth of Indians. But this mostly isn't the case now, people just don't want to learn even when they have all the resources 
-in the world. 
+in the world. (Again, exceptions exist) 
 
 Before the Internet, access to information was a big issue, again now this simply isn't the problem. 
 Literally everyone in India has a smartphone and access to affordable internet. 
@@ -144,6 +144,7 @@ What we can do as a society is encourage curiosity and emphasis of knowledge vs 
 (Quality vs Quantity) 
 I for instance, hardly see anyone with passion for technology, one needs that natural curiosity and the thirst for knowledge, which is absent in most.
 
+We need to encourage curiosity. We as a human race have achieved this much because of our curiosity
 
 PS: I was invited to give a guest lecture to 2nd year students of a polytechnic college a few days ago, it felt good to interact with these people 
     and that I was able to make these people curious about technology!
