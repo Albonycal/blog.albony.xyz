@@ -43,10 +43,12 @@ But surely that's quite an extreme example of the infrastructure we take for gra
 Anything that's off-grid has always fascinated me, I don't know why that is but there's a certain thrill about the idea. 
 Maybe it's because I have read too much [Famous Five](https://en.wikipedia.org/wiki/The_Famous_Five) during my childhood, the series has 21 books and I think I have read all of them atleast thrice! 
 
-This fascination about off-grid things is the reason I want to get an [HAM radio](https://en.wikipedia.org/wiki/Amateur_radio) license. Communicating with people all around the world with your small low power radio all because there's an atmospheric layer in the sky called [Ionosphere](https://en.wikipedia.org/wiki/Ionosphere) which gets ionised by solar radiation which can cause HF radio waves to reflect back to Earth which in turn enables long range radio propagation is quite cool right??
- 
+This fascination about off-grid things is the reason I want to get an [HAM radio](https://en.wikipedia.org/wiki/Amateur_radio) license. Communicating with people all around the world with your low powered radio all because there's an atmospheric layer in the sky called [Ionosphere](https://en.wikipedia.org/wiki/Ionosphere) which gets ionised by solar radiation which can cause HF radio waves to reflect back to Earth which in turn enables long range radio propagation is quite cool right??
+Having an HAM Radio license gives you freedom, freedom to experiment. When I was a child, I stumbled upon this project called "fm_transmitter" which used a raspberry pi's general clock output to produce frequency modulation which allowed one to transmit on licensed FM bands, it was very low power so it was fine to experiment with.
+I remember walking down the street with my father, carrying a handheld radio in my hands and testing how long my raspberry pi can transmit FM Radio. But this thrill is somewhat minimised by the city environment. 
 
-Away from the civilisation in a lovely farmland? even better. 
+Away from the civilisation in a lovely farmland? Now we are taking!
+
 ![Picture taken at the farm we had](/image_2024-06-13T18-29-16Z.png)
 
 There's one problem for *us geeks* though, internet access wouldn't be the same as a city.
@@ -55,7 +57,7 @@ The picture you see is of the farm we owned. The nearest village has BBNL fiber 
 
 But.. you might have noticed the usage of past tense there in the word "owned" We had to sell our farm for quite obvious reasons, we are building a new house. 
 
-I visited it the last time, riding on my father's 22 year old Hero Honda Passion which holds even more memories than the farm we sold. 90% of the way there's metaled road, but nobody complains about the part where there's isn't because as the unmetalled road starts there's a beautiful lake on side and greenery on the other. The good thing about this spot is that nobody knows about it apart from nearby villagers or it'd have been ruined by tourists. 
+I visited it the last time, riding on my father's 22 year old Hero Honda Passion which holds even more memories than the farm we sold. 90% of the way there's metaled road, but nobody complains about the part where there's isn't because as the unmetalled road starts there's a beautiful lake on one side and greenery on the other. The good thing about this spot is that nobody knows about it apart from nearby villagers or it'd have been ruined by tourists. 
 
 The weather was cloudy and I was riding on the trusty bike steadily while there was a mild breeze around, it can't get better than this :) 
 ![image_2024-06-13T18-54-29Z.png](/image_2024-06-13T18-54-29Z.png)
@@ -69,4 +71,9 @@ I said goodbye to all the plants I had planted there, some were smaller than my 
 ![image_2024-06-14T09-01-16Z.png](/image_2024-06-14T09-01-16Z.png)
 ![image_2024-06-14T08-52-58Z.png](/image_2024-06-14T08-52-58Z.png)
 
-Perhaps I'll buy a new farm someday.
+Perhaps I'll buy a new farm someday. And build a house there to experience this thrill everyday. 
+I say this, but I am aware that the thrill will probably die when I get used to it. 
+
+Anyway thanks for reading the random things I write about.
+
+~ Shrirang Kahale
