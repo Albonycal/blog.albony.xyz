@@ -44,8 +44,11 @@ Anything that's off-grid has always fascinated me, I don't know why that is but 
 Maybe it's because I have read too much [Famous Five](https://en.wikipedia.org/wiki/The_Famous_Five) during my childhood, the series has 21 books and I think I have read all of them atleast thrice! 
 
 This fascination about off-grid things is the reason I want to get an [HAM radio](https://en.wikipedia.org/wiki/Amateur_radio) license. Communicating with people all around the world with your low powered radio all because there's an atmospheric layer in the sky called [Ionosphere](https://en.wikipedia.org/wiki/Ionosphere) which gets ionised by solar radiation which can cause HF radio waves to reflect back to Earth which in turn enables long range radio propagation is quite cool right??
+
 Having an HAM Radio license gives you freedom, freedom to experiment. When I was a child, I stumbled upon this project called "fm_transmitter" which used a raspberry pi's general clock output to produce frequency modulation which allowed one to transmit on licensed FM bands, it was very low power so it was fine to experiment with.
-I remember walking down the street with my father, carrying a handheld radio in my hands and testing how long my raspberry pi can transmit FM Radio. But this thrill is somewhat minimised by the city environment. 
+I remember walking down the street with my father, carrying a handheld radio in my hands and testing how long my raspberry pi can transmit FM Radio. 
+
+But this thrill is somewhat minimised by the city environment. 
 
 Away from the civilisation in a lovely farmland? Now we are taking!
 
