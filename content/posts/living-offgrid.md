@@ -50,7 +50,7 @@ I remember walking down the street with my father, carrying a handheld radio in 
 
 But this thrill is somewhat minimised by the city environment. 
 
-Away from the civilisation in a lovely farmland? Now we are taking!
+Away from the civilisation in a lovely farmland? Now we are talking!
 
 ![Picture taken at the farm we had](/image_2024-06-13T18-29-16Z.png)
 
