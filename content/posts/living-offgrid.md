@@ -58,7 +58,7 @@ There's one problem for *us geeks* though, internet access wouldn't be the same 
  
 The picture you see is of the farm we owned. The nearest village has BBNL fiber and it wouldn't have costed more than 10K INR to bring it to the farm, Another option is cellular data. The farm has decent reception and it can be even better with a directional antenna and a modem. As for electricity, farmlands don't get 24x7 electricity here, there is a certain time slot when it's available but you can always do a solar setup with some batteries. 
 
-But.. you might have noticed the usage of past tense there in the word "owned" We had to sell our farm for quite obvious reasons, we are building a new house. 
+But.. you might have noticed the usage of past tense there in the word "owned" We had to sell our farm. 
 
 I visited it the last time, riding on my father's 22 year old Hero Honda Passion which holds even more memories than the farm we sold. 90% of the way there's metaled road, but nobody complains about the part where there's isn't because as the unmetalled road starts there's a beautiful lake on one side and greenery on the other. The good thing about this spot is that nobody knows about it apart from nearby villagers or it'd have been ruined by tourists. 
 
