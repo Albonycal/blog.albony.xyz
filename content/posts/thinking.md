@@ -83,7 +83,7 @@ I think that it's late and I should probably sleep.
 
 
 
-> *The rain has slowed down, but I can still hear the plunking sounds. I have turned off the fan to prevent myself from freezing.*
+> *The rain has slowed down, but I can still hear the plunking sounds. The room is very cold, I have turned off the fan to prevent myself from freezing.*
  
 *The night is loud, and stars are bright. And it's time for me to say, Good Night..*
 
