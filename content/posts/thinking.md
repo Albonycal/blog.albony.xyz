@@ -51,7 +51,7 @@ Let's take an example of Kirchhoff's Law. This might be a bad example but it giv
 
 Yeah that was quite obvious right?? 
 
-But back in 1845 when Kirchhoff stated that law, our understanding of world was different. What sounds obvious to us now could have been an alien concept then. Then game of chess keeps going on, and with time our understanding of it increases. 
+But back in 1845 when Kirchhoff stated that law, our understanding of world was different. What sounds obvious to us now could have been an alien concept then. The game of chess keeps going on, and with time our understanding of it increases. 
 
 Forget about the people in 1845, take the example of yourself. This concept would have been as alien to you as those people when you were 4, we all learnt everything we know gradually by observing this giant game of chess. With some help from others of course ;)
 
@@ -63,23 +63,23 @@ It's a continuous process, as they say "Change is the only constant" theories ch
 
 I think about my future and what I want to do in this marvelous world... 
 
-I think about Music, and the power it posses. And sense it's energy, the modulation of voice, the vibration of strings, the resonance of sound. Not many people know it, but music is an important part of myself. If given the choice, I'd 100% pursue the career of singing. But these fields are very hard to break in and a lot of things depend on luck and connections. 
+I think about Music, and the power it posses. I sense it's energy, the modulation of voice, the vibration of strings, the resonance of sound. Not many people know it, but music is an important part of myself. If given the choice, I'd 100% pursue the career of singing. But these fields are very hard to break in and a lot of things depend on luck and connections. 
 
 
 
 I think about why I started writing this post anyway??
 
-I think about the number of things I forgot which I was thinking while I am typing this out..
+I think about the number of things I forgot, which I was thinking while I am typing this out..
 
-I think about the initial title of this post which was "Random Thoughts", But it can't be truly [random](https://en.wikipedia.org/wiki/Randomness) because that's nearly [impossible](https://en.wikipedia.org/wiki/Ramsey_theory) to achieve and may only exist at the very foundations of matter. The words in this article are just the result of the things my brain has caught up since my birth.
+I think about the initial title of this post which was "Random Thoughts". But it can't be truly [random](https://en.wikipedia.org/wiki/Randomness) because that's nearly [impossible](https://en.wikipedia.org/wiki/Ramsey_theory) to achieve and may only exist at the very foundations of matter. The words in this article are just the result of the things my brain has caught up since my birth.
 
 I think about "thinking" and how our education system is trying it's best to [stop people from doing it](https://shrirangkahale.com/posts/education-system-and-youth/). 
  
 I think about my laptop's battery, which is low. 
+
 I think that this post will probably sound silly to me when I read it later..
 
 I think that it's late and I should probably sleep. 
-I think whether an actual person will ever bother to read this :D 
 
 
 
