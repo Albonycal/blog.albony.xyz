@@ -43,7 +43,8 @@ I think about physics, which governs us all. The intricate properties of nature,
 
 You know, sometimes when I am reading my school textbook and stumble upon some phenomena, A thought comes to my mind on why this thing is a big deal? Why such obvious phenomena is named after the scientist who discovered it? I think this thought mainly occurs due to the way the fact is presented to the reader in books. 
 
-Let's take an example of Kirchhoff's Law. 
+Let's take an example of Kirchhoff's Law. This might be a bad example but it gives you the general idea.
+
 > Kirchhoff's junction rule, states that, for any node (junction) in an electrical circuit, the sum of currents flowing into that node is equal to the sum of currents flowing out of that node; or equivalently:
 
     The algebraic sum of currents in a network of conductors meeting at a point is zero. 
