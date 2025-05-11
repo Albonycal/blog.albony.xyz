@@ -68,7 +68,7 @@ PowerDNS (which I am using) currently **does not support ADoT**. Although experi
 
 As of now, Google Public DNS remains the only one to support ADoT, and others have reasons to not implement it aswell, ADoT can be extremely resource intensive, not only due to the added CPU cycles for encryption but also due to the active probing mechanism outlined in RFC 9539, which requires them to active probe to see if authoritative nameservers support ADoT. Google due to their large scale and bigger pockets can justify this, while others might not be able to. 
 
-It is interesting to note that [Root-B server also has added experimental support for DoT. ](https://b.root-servers.org/news/2023/02/28/tls.html)
+It is interesting to note that [Root-B server has also added experimental support for DoT. ](https://b.root-servers.org/news/2023/02/28/tls.html)
 
 
 ## DoQ (DNS over QUIC)
