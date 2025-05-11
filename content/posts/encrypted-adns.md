@@ -82,11 +82,14 @@ Thanks to its optimizations - most importantly, built-in support for 0-RTT hands
 
 QUIC is a lot more than just something that uses UDP. Unlike UDP QUIC has support for congestion control algorithms like `BBR` and `CUBIC`, QUIC is also multipath friendly. And should offer better delivery than plain old UDP. 
 
-Overall, I am still sceptical about the technology though, it will do fine for DNS but when personally testing HTTP/3 for mirror.albony.in, I found it consistently slower than HTTP/2 (TCP). TCP has gone through decades of optimisations, a lot of work has been put into making it better and it shows. I also found this research [paper](https://arxiv.org/pdf/2310.09423) pointing out the very same thing.
+Overall, I am still sceptical about the technology though, it will do fine for DNS but when personally testing HTTP/3 for [mirror.albony.in](https://mirror.albony.in/) which is a popular free software mirror in India, I found it consistently slower than HTTP/2 (TCP). TCP has gone through decades of optimisations, a lot of work has been put into making it better and it shows. I also found this research [paper](https://arxiv.org/pdf/2310.09423) pointing out the very same thing.
 
 I do think QUIC is the modern counterpart and *is* the future, with all the investments put into it. 
 
+
+
 Anyway, we are getting off-topic! Back to DNS. 
+<hr> </hr>
 
 The problem of probing exists in ADoQ as well. After-all these are proposed standards and support is very rare. 
 
@@ -130,7 +133,7 @@ Popular messaging protocol Signal has already implemented post-quantum cryptogra
 The field itself is very complicated hence I won't comment anymore. 
 
 
-~~ 
+<hr> </hr>
 
 Thank you for reading! 
 
