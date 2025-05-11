@@ -103,13 +103,13 @@ RFC 5936 (AXFR) and RFC 1995 (IXFR) defines the zone transfer mechanisms current
 There's also a `NOTIFY` mechanism to notify all servers to retrieve latest copy of zone file. 
 
 RFC 9103 (XoT) is a proposed standard to make this zone transfer encrypted. Although one does not need XoT for this communication to be encrypted if one is willing to implement a custom solution, because in this case you can control the servers end-to-end.
+
 This means that you can use encrypted wireguard or any-other tunnels to do XFR, many people do this. 
 
-Another method is to use database replication, the zone files in the end are stored in databases. For ex. sqlite or mysql and they can be clone over ssh,rsync or any other replication technique. This would avoid XFR. 
+Another method is to use database replication, after-all the zone files in the end are stored in databases. This would avoid XFR. 
 
-Personally I prefer XFR though, because I find it a more elegant solution. 
 
-## Why is it even required?
+## Why is encryption for Authoritative DNS even required?
 
 To circumvent DNS cache poisoning, as the traffic between the recursor and authoritative server is in plain-text an attacker might be able to inject fake responses if they control the communication link. 
 
