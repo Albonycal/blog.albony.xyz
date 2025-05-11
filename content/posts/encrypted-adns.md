@@ -1,0 +1,123 @@
+---
+title: "Encryption in Authoritative DNS"
+date: "2025-05-11T09:43:19Z"
+tags: ["DNS" , "Encryption" , "QUIC" ]
+author: "Shrirang Kahale"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: true
+hidemeta: false
+comments: false
+description: " "
+canonicalURL: "https://blog.albony.xyz/posts/encryption-in-authoritative-dns"
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+cover:
+    image: "/"
+    caption: " "
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/blog.albony.xyz/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+---
+
+
+Internet as we know today emerged from APARNET which was a research network made by US DoD. 
+
+Technologies like TCP/IP emerged from ARPANET and which in later times formed the basis of Internet. It also lead to the birth of [DNS](https://en.wikipedia.org/wiki/Domain_Name_System#History) (RFC 882 and RFC 883 standardised by IETF in 1983)
+
+Those were the days of plain text communication and encryption wasn't considered when DNS was standardised, it was merely a system which could scale. 
+
+While mechanisms like DoT and DoH exist for encrypted DNS between recursive and stub-resolvers (clients) and are very popular, progress on the authoritative side has been slow.
+
+## ADoT (Authoritative DNS over TLS)
+
+
+
+A few days ago I unearthed evidence of Google's Public DNS (8.8.8.8) probing authoritative nameservers over DoT (port 853) by looking at traffic to my servers. I host my own nameservers using PowerDNS.
+
+![Image showing output of dig tool](/image_2025-05-11T09-39-18Z.png)
+
+I found that they list the IP ranges used for authoritative DNS queries and sure enough the traffic I saw on my end matched with their Mumbai IP range used for Google DNS. 
+
+After a bit more digging I came across this [blogpost](https://security.googleblog.com/2024/03/) which mentions Google DNS adding support for ADoT (Authoritative DNS over TLS) 
+
+>  We’ve deployed DNS-over-TLS to authoritative nameservers (ADoT), following procedures described in RFC 9539 (Unilateral Opportunistic Deployment of Encrypted Recursive-to-Authoritative DNS). 
+ Real world measurements show that ADoT has a higher success rate and comparable latency to UDP. And ADoT is in use for around 6% of egress traffic. At the cost of some CPU and memory, we get both security and privacy for nameserver queries without DNS compliance issues.
+
+PowerDNS (which I am using) currently **does not support ADoT**. Although experimental support has been added in BIND and some other implementations, interestingly PowerDNS Recursor does support probing for DoT as-per the above-mentioned RFC.
+
+As of now, Google Public DNS remains the only one to support ADoT, and others have reasons to not implement it aswell, ADoT can be extremely resource intensive, not only due to the added CPU cycles for encryption but also due to the active probing mechanism outlined in RFC 9539, which requires them to active probe to see if authoritative nameservers support ADoT. Google due to their large scale and bigger pockets can justify this, while others might not be able to. 
+
+It is interesting to note that [Root-B server also has added experimental support for DoT. ](https://b.root-servers.org/news/2023/02/28/tls.html)
+
+
+## DoQ (DNS over QUIC)
+
+ DoQ itself is even newer technology when compared to the others, and hence the support for it is minimal. 
+And due to the very nature of QUIC which coexists with TLS, it is encrypted by default. And due to the performance optimisations provided by QUIC, it is more efficient when compared with DoT. 
+ 
+QUIC is a lot more than just something that uses UDP. Unlike UDP QUIC has support for congestion control algorithms like `BBR` and `CUBIC`, QUIC is also multipath friendly. And should offer better delivery than plain old UDP. 
+
+Overall, I am still sceptical about the technology though, it will do fine for DNS but when personally testing HTTP/3 for mirror.albony.in, I found it consistently slower than HTTP/2 (TCP). TCP has gone through decades of optimisations, a lot of work has been put into making it better and it shows. I also found this research [paper](https://arxiv.org/pdf/2310.09423) pointing out the very same thing.
+
+Overall, I think QUIC is the modern counterpart and is the future, with all the investments put into it. 
+
+Anyway, we are getting off-topic! Back to DNS. 
+
+The problem of probing exists in ADoQ as well though. These are all proposed standards and support is very rare. I could not find any evidence of ADoQ being implemented.
+
+I would also like to emphasise that this probing mechanism is opportunistic at-best. Which means that it'll fall back to unencrypted DNS if encrypted communication fails.  (For both DoQ and DoT)
+
+For those who are familiar with it, this mechanism is very similar to how the [Happy eyeballs](https://en.wikipedia.org/wiki/Happy_Eyeballs) algorithm operates to check for IPv6 connectivity. 
+
+The "unilateral" in  RFC 9539 means that authoritative server does not need to do anything to tell the recursive servers that they support DoT/DoQ, this thus requires the active probing mechanism on the recursor side as discussed above.  And this probing similar to Happy eyeballs must happen from time to time, because network conditions change. Overall this adds massive operational expenditure on recursive side. 
+
+There's no public data on this part yet, but I have tried contacting a few organisations and still waiting for their reply. 
+
+## XoT (XFR over TLS)
+
+As we know, it is recommended for redundancy reasons to have multiple nameservers hosting your zone. 
+Now the question arises on how to keep them in sync. Change to the zone file should propagate quickly to all nameservers in-order to maintain consistency and avoid problems. 
+
+RFC 5936 (AXFR) and RFC 1995 (IXFR) defines the zone transfer mechanisms currently used to achieve this purpose, which is done using clear-text communication using DNS. 
+There's also a `NOTIFY` mechanism to notify all servers to retrieve latest copy of zone file. 
+
+RFC 9103 (XoT) is a proposed standard to make this zone transfer encrypted. Although one does not need XoT for this communication to be encrypted if one is willing to implement a custom solution, because in this case you can control the servers end-to-end.
+This means that you can use encrypted wireguard or any-other tunnels to do XFR, many people do this. 
+
+Another method is to use database replication, the zone files in the end are stored in databases. For ex. sqlite or mysql and they can be clone over ssh,rsync or any other replication technique. This would avoid XFR. 
+
+Personally I prefer XFR though, because I find it a more elegant solution. 
+
+## Why is it even required?
+
+To circumvent DNS cache poisoning, as the traffic between the recursor and authoritative server is in plain-text an attacker might be able to inject fake responses if they control the communication link. 
+
+## Post Quantum Cryptography (PQC)
+
+As encryption is mentioned in my blog post, I felt it was essential to also include post quantum cryptography. Quantum Computers in future maybe fast enough to break the AES encryption that's holding our world. Post quantum cryptographic algorithms need to be implemented to circumvent this threat. These algorithms are preparing for Y2Q, the year when Quantum computers will have enough processing power to crack modern AES. 
+
+Popular messaging protocol Signal has already implemented post-quantum cryptography with their [X3DH](https://signal.org/docs/specifications/x3dh/) protocol. Fortunately for internet protocols other than changing the algorithms used, no major change is required in-order to accommodate for PQC.
+
+The field itself is very complicated hence I won't comment anymore. 
+
+
+~~ 
+
+Thank you for reading! 
+If you have any questions, please don't hesitate to leave a comment or contact me.
+Shrirang
+
+
+
+
