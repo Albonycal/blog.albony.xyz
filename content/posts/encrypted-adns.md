@@ -40,7 +40,11 @@ ARPANET was eventually dissolved but new networks were formed and with growing i
 People to this date are reminisant about the days of the [DOTCOM bubble](https://en.wikipedia.org/wiki/Dot-com_bubble) which was a period of rapid internet growth. 
 
 
-As the network grew, there were a lot of IP addresses and the concept of using easy to remember domain names was called for, Before DNS a giant text file "HOSTS.TXT" was maintained which had the records, quickly it was realised that this is not feasible. That's when DNS was born. A giant, scalable database. (RFC 882 and RFC 883 were standardised by IETF in 1983)
+As the network grew, there were a lot of IP addresses and the concept of using easy to remember domain names was called for. 
+
+Before DNS a giant text file "HOSTS.TXT" was maintained which had the records, quickly it was realised that this is not feasible. That's when DNS was born. A giant, scalable database. 
+(RFC 882 and RFC 883 were standardised by IETF in 1983)
+
 Those were the days of plain text communication and encryption wasn't considered when DNS was standardised, it was merely a system which could scale. 
 
 While mechanisms like DoT and DoH exist for encrypted DNS between recursive and stub-resolvers (clients) and are very popular in today's date, progress on the authoritative side has been slow.
