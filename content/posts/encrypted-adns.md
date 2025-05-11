@@ -73,18 +73,24 @@ It is interesting to note that [Root-B server has also added experimental suppor
 
 ## DoQ (DNS over QUIC)
 
- DoQ itself is even newer technology when compared to the others, and hence the support for it is minimal. 
-And due to the very nature of QUIC which coexists with TLS, it is encrypted by default. And due to the performance optimisations provided by QUIC, it is more efficient when compared with DoT. 
- 
+DoQ is a relatively new technology compared to the others - it has minimal support as it only became a Proposed Standard in May 2022. 
+
+One of its key features is mandatory encryption - the QUIC initial handshake can only be performed with TLS encryption (RFC9000, section 7.1). 
+
+Thanks to its optimizations - most importantly, built-in support for 0-RTT handshakes, it is a far more efficient transport for DNS compared to DoT or DoH.
+
+
 QUIC is a lot more than just something that uses UDP. Unlike UDP QUIC has support for congestion control algorithms like `BBR` and `CUBIC`, QUIC is also multipath friendly. And should offer better delivery than plain old UDP. 
 
 Overall, I am still sceptical about the technology though, it will do fine for DNS but when personally testing HTTP/3 for mirror.albony.in, I found it consistently slower than HTTP/2 (TCP). TCP has gone through decades of optimisations, a lot of work has been put into making it better and it shows. I also found this research [paper](https://arxiv.org/pdf/2310.09423) pointing out the very same thing.
 
-Overall, I think QUIC is the modern counterpart and is the future, with all the investments put into it. 
+I do think QUIC is the modern counterpart and *is* the future, with all the investments put into it. 
 
 Anyway, we are getting off-topic! Back to DNS. 
 
-The problem of probing exists in ADoQ as well though. These are all proposed standards and support is very rare. I could not find any evidence of ADoQ being implemented.
+The problem of probing exists in ADoQ as well. After-all these are proposed standards and support is very rare. 
+
+I could not find any evidence of ADoQ being implemented.
 
 I would also like to emphasise that this probing mechanism is opportunistic at-best. Which means that it'll fall back to unencrypted DNS if encrypted communication fails.  (For both DoQ and DoT)
 
