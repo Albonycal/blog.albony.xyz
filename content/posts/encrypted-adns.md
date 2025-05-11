@@ -87,6 +87,8 @@ QUIC is a lot **more** than just something that is "like TCP" but over UDP. Unli
 
 Overall, I am still sceptical about the technology, it will do fine for DNS but when personally testing HTTP/3 for [mirror.albony.in](https://mirror.albony.in/) which is a popular free software mirror in India, I found it consistently slower than HTTP/2 (TCP). TCP has gone through decades of optimisations, a lot of work has been put into making it better and it shows. I also found this research [paper](https://arxiv.org/pdf/2310.09423) pointing out the very same thing.
 
+![QUIC](https://blog.apnic.net/wp-content/uploads/2019/03/quic-fig1.png)
+
 I do think QUIC is the modern counterpart and *is* the future, with all the investments put into it. It is also censorship-proof as it encrypts the SNI (Server Name Indicated) by default. 
 
 For HTTP/2 TLS ECH is proposed to solve the problem of exposed plain-text SNI and it's already in use quite a bit.
@@ -100,7 +102,7 @@ The problem of probing exists in ADoQ as well. After-all these are proposed stan
 
 I could not find any evidence of ADoQ being implemented.
 
-#### I would also like to emphasise that this probing mechanism is opportunistic at-best. Which means that it'll fall back to unencrypted DNS if encrypted communication fails.  (For both DoQ and DoT)
+##### I would also like to emphasise that this probing mechanism is opportunistic at-best. Which means that it'll fall back to unencrypted DNS if encrypted communication fails.  (For both DoQ and DoT)
 
 For those who are familiar with it, this mechanism is very similar to how the [Happy eyeballs](https://en.wikipedia.org/wiki/Happy_Eyeballs) algorithm operates to check for IPv6 connectivity. 
 
@@ -142,7 +144,7 @@ The current work-arounds include using "DNS cookies" which is an Extended DNS (E
 Currently defined by RFC 9018 DNS cookies are "a lightweight DNS transaction security mechanism that provide limited protection to DNS servers and clients against a variety of denial-of-service amplification, forgery, or cache-poisoning attacks by off-path attackers. 
 
 
-#### In short words, they are random strings included in the response from the authoritative server pre-exchanged during intial query. This cookie is then to be included in every subsequent communication.
+##### In short words, they are random strings included in the response from the authoritative server pre-exchanged during intial query. This cookie is then to be included in every subsequent communication.
 
 When supported by both recursor and authoritative server, it allows recursor to detect spoofed responses and server to determine that a client's address is not spoofed.
 
