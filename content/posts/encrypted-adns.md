@@ -53,13 +53,13 @@ While mechanisms like DoT and DoH exist for encrypted DNS between recursive and 
 
 
 
-A few days ago I unearthed evidence of Google's Public DNS (8.8.8.8) probing authoritative nameservers over DoT (port 853) by looking at traffic to my servers. I host my own nameservers using PowerDNS.
+A few days ago I unearthed evidence of Google's Public DNS (8.8.8.8) probing authoritative nameservers over DoT (port 853) by looking at traffic to my authoritative servers.
 
 ![Image showing output of dig tool](/image_2025-05-11T09-39-18Z.png)
 
-I found that they list the IP ranges used for authoritative DNS queries and sure enough the traffic I saw on my end matched with their Mumbai IP range used for Google DNS. 
+I found that Google lists the IP ranges used for authoritative DNS queries and sure enough, the IPs I saw on my end matched with their Mumbai range used for Google DNS. 
 
-After a bit more digging I came across this [blogpost](https://security.googleblog.com/2024/03/) which mentions Google DNS adding support for ADoT (Authoritative DNS over TLS) 
+After a bit more digging, I came across this [blogpost](https://security.googleblog.com/2024/03/) which mentions Google DNS adding support for ADoT (Authoritative DNS over TLS) 
 
 >  We’ve deployed DNS-over-TLS to authoritative nameservers (ADoT), following procedures described in RFC 9539 (Unilateral Opportunistic Deployment of Encrypted Recursive-to-Authoritative DNS). 
  Real world measurements show that ADoT has a higher success rate and comparable latency to UDP. And ADoT is in use for around 6% of egress traffic. At the cost of some CPU and memory, we get both security and privacy for nameserver queries without DNS compliance issues.
@@ -115,7 +115,7 @@ There's no public data on this part yet, but I have tried contacting a few organ
 As we know, it is recommended for redundancy reasons to have multiple nameservers hosting your zone. 
 Now, the question arises on how to keep them in sync? Changes to the zone file should also propagate quickly to all nameservers in-order to maintain consistency and avoid problems. 
 
-Enter XFR. 
+Enter, XFR. 
 
 RFC 5936 (AXFR) and RFC 1995 (IXFR) defines the zone transfer mechanisms currently used to achieve this purpose, which is done using clear-text communication using DNS. 
 There's also a `NOTIFY` mechanism to notify all servers to retrieve latest copy of zone file. If they are authorized to do so, the authoritative servers can also manually fetch the zonefile using the `RETRIEVE` mechanism. 
