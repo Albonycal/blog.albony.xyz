@@ -90,7 +90,9 @@ I would also like to emphasise that this probing mechanism is opportunistic at-b
 
 For those who are familiar with it, this mechanism is very similar to how the [Happy eyeballs](https://en.wikipedia.org/wiki/Happy_Eyeballs) algorithm operates to check for IPv6 connectivity. 
 
-The "unilateral" in  RFC 9539 means that authoritative server does not need to do anything to tell the recursive servers that they support DoT/DoQ, this thus requires the active probing mechanism on the recursor side as discussed above.  And this probing similar to Happy eyeballs must happen from time to time, because network conditions change. Overall this adds massive operational expenditure on recursive side. 
+The "unilateral" in  RFC 9539 means that authoritative server does not need to do anything to tell the recursive servers that they support DoT/DoQ, this thus requires the active probing mechanism on the recursor side as discussed above.  
+And this probing, similar to Happy eyeballs must happen from time to time, because network conditions change. 
+Overall this adds massive operational expenditure on recursive side. 
 
 There's no public data on this part yet, but I have tried contacting a few organisations and still waiting for their reply. 
 
