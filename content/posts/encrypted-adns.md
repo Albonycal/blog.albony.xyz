@@ -145,17 +145,33 @@ ADoT/ADoQ is not one of them, but it is the most effective one.
 
 The current work-arounds include using "DNS cookies" which is an Extended DNS (EDNS) option. 
 
-Currently defined by RFC 9018 DNS cookies are "a lightweight DNS transaction security mechanism that provide limited protection to DNS servers and clients against a variety of denial-of-service amplification, forgery, or cache-poisoning attacks by off-path attackers. 
+Currently defined by RFC 9018 DNS cookies are "a lightweight DNS transaction security mechanism that provide limited protection to DNS servers and clients against a variety of denial-of-service amplification, forgery, or cache-poisoning attacks by off-path attackers." 
 
 
 ##### In short words, they are random strings included in the response from the authoritative server pre-exchanged during intial query. This cookie is then to be included in every subsequent communication.
 
+There are two kinds of DNS Cookies, client cookie and server cookie. 
+
+
+First, the client generates a client cookie, typically based on its IP and a local secret and sends a DNS query that includes only this client cookie in an EDNS(0) option to the server.
+
+When server recieves this client cookie it generates a server cookie which includes the information shared by the client cookie as well as another local secret.
+
+In all subsequent queries both client and server cookie are included.
+
 When supported by both recursor and authoritative server, it allows recursor to detect spoofed responses and server to determine that a client's address is not spoofed.
 
-It is to be noted that this method is **not full-proof** because the server needs to exchange cookie first and the recursor has to retain it for a fixed amount of time to verify subsiequent requests.
-But it is still a good counter-measure if deployed widely.
+It is to be noted that this method is **not full-proof** because the server needs to exchange cookie first and the recursor has to retain it for a fixed amount of time to verify subseequent requests.
+The first exchange is still succeptible to MiTM attacks. DNS Cookies are merely a way to identify clients. Due to the way it is implemented, it is also possible to identify clients behind CGNAT deployments.
+Refer to the RFC for full information.
 
-BIND9 and PowerDNS both support DNS Cookies.
+But overall, it is still a good counter-measure if deployed widely.
+
+Unlike ADoT/ADoQ DNS cookies are widely supported. For instance BIND9 and PowerDNS both support DNS Cookies.
+And according to Google Public DNS stats, 40% of nameservers support DNS cookies.
+
+If you are interested in deploying it yourself, in most cases updating your DNS software to the latest version should be sufficient. Refer to the docs.
+
 
 <hr> </hr>
 
