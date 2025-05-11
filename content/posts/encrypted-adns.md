@@ -31,7 +31,7 @@ editPost:
 ---
 
 
-#### Internet as we know today emerged from ARPANET which was a research network made by the US DoD. 
+##### Internet as we know today emerged from ARPANET which was a research network made by the US DoD. 
 
 Technologies like TCP/IP formed the basis of ARPANET being the the first network to use IP based communication. 
 
@@ -53,7 +53,7 @@ While mechanisms like DoT and DoH exist for encrypted DNS between recursive and 
 
 
 
-#### A few days ago I unearthed evidence of Google's Public DNS (8.8.8.8) probing authoritative nameservers over DoT (port 853) by looking at traffic to my servers. I host my own nameservers using PowerDNS.
+A few days ago I unearthed evidence of Google's Public DNS (8.8.8.8) probing authoritative nameservers over DoT (port 853) by looking at traffic to my servers. I host my own nameservers using PowerDNS.
 
 ![Image showing output of dig tool](/image_2025-05-11T09-39-18Z.png)
 
@@ -76,7 +76,7 @@ It is interesting to note that [Root-B server has also added experimental suppor
 
 ## DoQ (DNS over QUIC)
 
-#### DoQ is a relatively new technology compared to the others - it has minimal support as it only became a Proposed Standard in May 2022. 
+DoQ is a relatively new technology compared to the others - it has minimal support as it only became a Proposed Standard in May 2022. 
 
 One of its key features is mandatory encryption - the QUIC initial handshake can only be performed with TLS encryption (RFC9000, section 7.1). 
 
