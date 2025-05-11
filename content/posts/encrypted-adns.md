@@ -31,21 +31,21 @@ editPost:
 ---
 
 
-##### Internet as we know today emerged from ARPANET which was a research network made by the US DoD. 
+##### Internet as we know today, emerged from ARPANET, which was a research network made by the US DoD. 
 
-Technologies like TCP/IP formed the basis of ARPANET being the the first network to use IP based communication. 
+Technologies like TCP/IP formed the basis of ARPANET, being the the first network to use IP based communication. 
 
-ARPANET was eventually dissolved but new networks were formed and with growing ideas and technology The Internet was born.
+ARPANET was eventually dissolved, but new networks were formed and with growing ideas and technology, The Internet was born.
 
 People to this date are reminiscent about the days of the [dot-com bubble](https://en.wikipedia.org/wiki/Dot-com_bubble) which was a period of rapid internet growth. 
 
 
-As the network grew, there were a lot of IP addresses and the concept of using easy to remember domain names was called for. 
+As the network grew, So did the number of servers and IP addresses, and the concept of using easy to remember domain names was called for. 
 
-Before DNS a giant [text file](https://rscott.org/OldInternetFiles/) "HOSTS.TXT" was maintained which had the records, quickly it was realised that this is not feasible. That's when DNS was born. A giant, hierarchial and scalable database. 
+Before DNS a giant [text file](https://rscott.org/OldInternetFiles/) "HOSTS.TXT" was maintained which had the records. But quickly it was realised that this is not feasible. That's when DNS was born. A giant, hierarchial and scalable database. 
 (RFC 882 and RFC 883 were standardised by IETF in 1983)
 
-Those were the days of plain text communication and encryption wasn't considered when DNS was standardised, it was merely a system which could scale. 
+Those were the days of plain text communication and encryption wasn't considered, when DNS was standardised, it was merely a system which could scale. 
 
 While mechanisms like DoT and DoH exist for encrypted DNS between recursive and stub-resolvers (clients) and are very popular in today's date, progress on the authoritative side has been slow.
 
@@ -66,7 +66,7 @@ After a bit more digging, I came across this [blogpost](https://security.googleb
 
 PowerDNS (which I am using) currently **does not support ADoT**. Although experimental support has been added in BIND and some other implementations, interestingly PowerDNS Recursor does support probing for DoT as-per the above-mentioned RFC.
 
-As of now, Google Public DNS remains the only one to support ADoT. According to Google stats ADoT support is less than 0.1% for nameservers. 
+As of now, Google Public DNS remains the only one to support ADoT. According to Google stats ADoT support is less than 0.1% of their total query volume. 
 Which makes me question the economics of this.
 
 Others have good reasons to not implement it, ADoT can be extremely resource intensive, not only due to the added CPU cycles for encryption but also due to the active probing mechanism outlined in RFC 9539, which requires them to active probe to see if authoritative nameservers support ADoT. Google due to their large scale and bigger pockets can justify this, while others might not be able to. 
