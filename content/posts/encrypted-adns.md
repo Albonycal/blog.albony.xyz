@@ -31,18 +31,18 @@ editPost:
 ---
 
 
-Internet as we know today emerged from APARNET which was a research network made by US DoD. 
+Internet as we know today emerged from ARPANET which was a research network made by the US DoD. 
 
 Technologies like TCP/IP formed the basis of ARPANET being the the first network to use IP based communication. 
 
 ARPANET was eventually dissolved but new networks were formed and with growing ideas and technology The Internet was born.
 
-People to this date are reminisant about the days of the [DOTCOM bubble](https://en.wikipedia.org/wiki/Dot-com_bubble) which was a period of rapid internet growth. 
+People to this date are reminisant about the days of the [dot-com bubble](https://en.wikipedia.org/wiki/Dot-com_bubble) which was a period of rapid internet growth. 
 
 
 As the network grew, there were a lot of IP addresses and the concept of using easy to remember domain names was called for. 
 
-Before DNS a giant text file "HOSTS.TXT" was maintained which had the records, quickly it was realised that this is not feasible. That's when DNS was born. A giant, scalable database. 
+Before DNS a giant [text file](https://rscott.org/OldInternetFiles/) "HOSTS.TXT" was maintained which had the records, quickly it was realised that this is not feasible. That's when DNS was born. A giant, hierarchial and scalable database. 
 (RFC 882 and RFC 883 were standardised by IETF in 1983)
 
 Those were the days of plain text communication and encryption wasn't considered when DNS was standardised, it was merely a system which could scale. 
