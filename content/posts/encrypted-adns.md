@@ -85,9 +85,13 @@ Thanks to its optimizations - most importantly, built-in support for 0-RTT hands
 
 QUIC is a lot **more** than just something that is "like TCP" but over UDP. Unlike UDP, QUIC has support for congestion control algorithms like `BBR` and `CUBIC`, QUIC is also multipath friendly. And should offer better delivery than plain old UDP. 
 
-Overall, I am still sceptical about the technology, it will do fine for DNS but when personally testing HTTP/3 for [mirror.albony.in](https://mirror.albony.in/) which is a popular free software mirror in India, I found it consistently slower than HTTP/2 (TCP). TCP has gone through decades of optimisations, a lot of work has been put into making it better and it shows. I also found this research [paper](https://arxiv.org/pdf/2310.09423) pointing out the very same thing.
-
 ![QUIC](https://blog.apnic.net/wp-content/uploads/2019/03/quic-fig1.png)
+
+Overall, I am still sceptical about the technology, it will do fine for DNS but when personally testing HTTP/3 for [mirror.albony.in](https://mirror.albony.in/) (I run a popular free software mirror in India), I found it consistently slower than HTTP/2 (TCP). 
+
+TCP has gone through decades of optimisations, a lot of work has been put into making it better, and it shows. 
+After a bit of research, I also stumbled upon this [paper](https://arxiv.org/pdf/2310.09423) which points out my personal observations.
+
 
 I do think QUIC is the modern counterpart and *is* the future, with all the investments put into it. It is also censorship-proof as it encrypts the SNI (Server Name Indicated) by default. 
 
@@ -170,9 +174,4 @@ Thank you for reading!
 
 
 If you have any questions, please don't hesitate to leave a comment or contact me.
-
-Shrirang
-
-
-
 
